@@ -11,7 +11,47 @@ To give a sense of the enthusiasm I had for the game, here's [one of my more pop
 
 I'm really glad to see that Powder Game and its successors are still thriving! However, I also found out that the Powder Game chat that I frequented has been [abandoned](http://xat.com/1991roncampo). Tragic.
 
-Anyways, try the following buttons, "r, g, b, c, space".
+Anyways, try the following buttons, "r, g, b, c, space". Also left click and right click.
 
 <script src="/processing/processing.js" type="text/javascript"></script>
 <canvas id="Falling" data-processing-sources="/processing/Falling.pde" width="500" height="500"> </canvas>
+
+This ended up very bad. I guess it serves as an homage to the beautifully done Powder Game in a "look at how slow this is in comparison" way.
+
+Either way, code below.
+
+## Game
+
+This was done in processing.js by the way. If I ever try to make a powder simulator, I think I'll user p5.js. I should also probably tackle "particles" in some other way.
+
+[Code here](http://chilly.blue/processing/Falling.pde).
+
+I turned the Dan Ball logo to sand using this snippet:
+
+{% highlight java %}
+PImage loadedImage;
+
+void setup() {
+  selectInput("Select a file to process:", "fileSelected");
+}
+
+void fileSelected(File selection) {
+  if (selection == null) {
+    println("Window was closed or the user hit cancel.");
+    exit();
+  } else {
+    loadedImage = loadImage(selection.getAbsolutePath());
+    processImage();
+    exit();
+  }
+}
+
+void processImage() {
+  loadedImage.loadPixels();
+  for (int i = 0; i < loadedImage.pixels.length; i += 4) {
+    println("powderList.add(new Sand(" + i % loadedImage.width + ", " + i / loadedImage.width + ", color(" + (loadedImage.pixels[i] >> 16 & 0xFF) + ", " + (loadedImage.pixels[i] >> 8 & 0xFF) + ", " + (loadedImage.pixels[i] & 0xFF) + ")));");
+  }
+}
+
+{% endhighlight %}
+
