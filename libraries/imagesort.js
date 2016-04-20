@@ -13,6 +13,7 @@ var values = [];
 
 function setup() {
   var c = createCanvas(600, 300);
+  c.parent('container');
   c.drop(gotFile);
 }
 
