@@ -23,7 +23,7 @@ function draw() {
     fill(255);
     noStroke();
     textSize(24);
-    textAlign(CENTER);
+    textAlign(CENTER, CENTER);
     text('Drag & Drop Image Here!\n' + skips + '\nScroll To Change Speed', width / 2, height / 2);
   } else if (imageLoaded && start) {
     startSort();
