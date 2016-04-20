@@ -32,9 +32,11 @@ function draw() {
 
 function mouseWheel(event) {
   //move the square according to the vertical scroll amount
-  skips -= event.delta;
-  //uncomment to block page scrolling
-  return false;
+  if (!imageLoaded) {
+    skips -= event.delta;
+    //uncomment to block page scrolling
+    return false;
+  }
 }
 
 function startSort() {
