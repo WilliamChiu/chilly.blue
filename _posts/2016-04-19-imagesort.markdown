@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "QuickSort Images"
-date:   2016-04-10
+date:   2016-04-19
 categories: quicksort p5.js
 ---
 
