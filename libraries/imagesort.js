@@ -86,6 +86,7 @@ function gotFile(f) {
 }
 
 function drawImage(img) {
+  partitionQueue = []; //high, low
   partitioning = false;
   start = false;
   pivot;
