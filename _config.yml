@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chilly.blue" # the base hostname & protocol for your site
 github_username:  williamchiu
 
-post_dirs: false
+permalink: pretty
 
 # Build settings
 markdown: kramdown
