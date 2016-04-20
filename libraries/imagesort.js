@@ -1,4 +1,3 @@
-var fileSelect;
 var loadedImage;
 var imageLoaded = false;
 
@@ -87,6 +86,13 @@ function gotFile(f) {
 }
 
 function drawImage(img) {
+  partitioning = false;
+  start = false;
+  pivot;
+  i, j, state = 0;
+
+  values = [];
+
   resizeCanvas(img.width, img.height);
   image(img, 0, 0);
   imageLoaded = true;
