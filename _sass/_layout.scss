@@ -139,3 +139,15 @@
         }
     }
 }
+
+/**
+ * Additional Thingies
+ */
+.center-button {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color:$dark;
+    color:$light;
+    border-radius:25px;
+    padding:10px;
+}
