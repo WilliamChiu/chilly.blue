@@ -153,10 +153,12 @@
 
     & a {
         color: $light;
+        text-decoration: underline;
 
         &:hover {
             color: $light;
             text-shadow: 0px 0px 20px $light;
+            text-decoration: none;
         }
     }
 }
