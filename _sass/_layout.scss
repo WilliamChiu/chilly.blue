@@ -150,4 +150,13 @@
     color:$light;
     border-radius:25px;
     padding:10px;
+
+    & a {
+        color: $light;
+
+        &:hover {
+            color: $light;
+            text-shadow: 0px 0px 20px $light;
+        }
+    }
 }
