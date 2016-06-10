@@ -45,6 +45,12 @@ $on-laptop:        800px;
     {
         display: none !important;
     }
+
+    .print-simplify, .print-simplify *
+    {
+        border-style: none;
+        color:black;
+    }
 }
 
 
