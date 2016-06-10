@@ -12,12 +12,7 @@
     	{% endcapture %}
     	{{ include_to_scssify | scssify }}
   	</style>
-
-  	<head>
-		<meta name="msvalidate.01" content="C86FD0A4C5EF9F54844491A7820A91CC" />
-		<title>Your SEO optimized title</title>
-	</head>
-
+  	
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
