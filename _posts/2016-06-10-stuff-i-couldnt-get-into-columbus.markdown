@@ -5,7 +5,7 @@ date:   2016-06-10
 categories: poetry
 ---
 
-<div>
+<div style="white-space:pre;">
 Two Two Eight Two Four Five.
 
 Young man,
