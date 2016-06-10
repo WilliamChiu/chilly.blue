@@ -50,6 +50,11 @@ $on-laptop:        800px;
     {
         border-style: none;
         color:black;
+        box-shadow: none;
+
+        & a {
+            color:black;
+        }
     }
 }
 
