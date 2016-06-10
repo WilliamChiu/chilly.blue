@@ -170,10 +170,6 @@
     }
 
     & h1 {
-        font-size: 29px;
-
-        @include media-query($on-laptop) {
-            font-size: 25px;
-        }
+        font-size: 1.5em;
     }
 }
