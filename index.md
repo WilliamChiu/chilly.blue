@@ -4,7 +4,7 @@ layout: default
 
 {% include chillyblue.svg %}
 
-<br/>
+<h1><br/></h1>
 <div class="center-button" markdown="1">
 <p style="font-size:1.5em">Hi, my name is Billy Chiu.</p>
 
