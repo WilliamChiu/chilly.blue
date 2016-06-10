@@ -172,10 +172,18 @@
     .page-content {
         border-radius: 0;
     }
+
+    .site-header {
+        border-radius: 0;
+    }
 }
 
 @include media-query($on-tablet) {
     .page-content {
+        border-radius: 0;
+    }
+
+    .site-header {
         border-radius: 0;
     }
 }
