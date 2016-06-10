@@ -4,9 +4,9 @@ layout: default
 
 {% include chillyblue.svg %}
 
-<h1><br/></h1>
+<br/>
 <div class="center-button" markdown="1">
-<p style="font-size:1.5em">Hi, my name is Billy Chiu.</p>
+# Hi, my name is Billy Chiu.
 
 I'm a Columbia University student with an interest in computer science and economics. On the side I'm a performing artist and an aspiring, cough, cook. Feel free to get in touch with me on [Facebook](https://www.facebook.com/billychillybluechiu), [Github](https://github.com/WilliamChiu), [LinkedIn](https://www.linkedin.com/in/william-chiu-2a192033) or through [email](mailto:william@chilly.blue).  
 Much thanks to Yuka Miyanomae for the awesome drawing!

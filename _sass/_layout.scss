@@ -168,4 +168,12 @@
             text-decoration: none;
         }
     }
+
+    & h1 {
+        font-size: 29px;
+
+        @include media-query($on-laptop) {
+            font-size: 25px;
+        }
+    }
 }
