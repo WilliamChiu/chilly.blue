@@ -54,9 +54,15 @@
  */
 
 @include media-query($on-palm) {
+    .page-content {
+        border-radius: 0;
+    }
 }
 
 @include media-query($on-tablet) {
+    .page-content {
+        border-radius: 0;
+    }
 }
 
 /**
