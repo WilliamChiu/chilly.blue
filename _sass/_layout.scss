@@ -50,22 +50,6 @@
 }
 
 /**
- * ATM not needed but for reference and future use.
- */
-
-@include media-query($on-palm) {
-    .page-content {
-        border-radius: 0;
-    }
-}
-
-@include media-query($on-tablet) {
-    .page-content {
-        border-radius: 0;
-    }
-}
-
-/**
  * Page content
  */
 .page-content {
@@ -179,3 +163,20 @@
         font-size: 1.5em;
     }
 }
+
+/**
+ * ATM not needed but for reference and future use.
+ */
+
+@include media-query($on-palm) {
+    .page-content {
+        border-radius: 0;
+    }
+}
+
+@include media-query($on-tablet) {
+    .page-content {
+        border-radius: 0;
+    }
+}
+
