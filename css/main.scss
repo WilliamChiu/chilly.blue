@@ -39,6 +39,14 @@ $on-laptop:        800px;
     }
 }
 
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
