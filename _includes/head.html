@@ -3,6 +3,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
   	<style type="text/css">
     	{% capture include_to_scssify %}
       		{% include main.scss %}
@@ -40,5 +42,5 @@
 	<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
 	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#445870">
-	{% seo %}
+	{% seo title=false %}
 </head>
