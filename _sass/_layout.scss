@@ -170,6 +170,12 @@
     line-height: 2;
 }
 
+.hover-fade {
+    &:hover {
+        opacity:0.8;
+    }
+}
+
 /**
  * ATM not needed but for reference and future use.
  */
