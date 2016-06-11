@@ -5,7 +5,7 @@ date:   2016-06-10
 categories: poetry
 ---
 
-<div style="white-space:pre;">
+<pre>
 Two Two Eight Two Four Five.
 
 Young man,
@@ -161,4 +161,4 @@ And listening to all the people around things get clearer,
 Sometimes looking inwards does nothing to fix the problem.
 But still, the key to the outside may be locked up inside.
 Nothing much to say except that things just keep on going,
-</div>
+</pre>
