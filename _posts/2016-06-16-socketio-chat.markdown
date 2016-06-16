@@ -11,4 +11,4 @@ Well, here is a slightly fleshed out demo for Socket.io. It includes identificat
 
 The chat itself is currently hosted for free, albeit with credit card identification, on through Microsoft Azure. The process was pretty painless and the service seems great thus far.
 
-<iframe src="https://trin-chat.azurewebsites.net/" border="none" style="width: 100%; min-height: 100px;"></iframe>
+<iframe src="https://trin-chat.azurewebsites.net/" style="width: 100%; min-height: 300px; border=none;"></iframe>
