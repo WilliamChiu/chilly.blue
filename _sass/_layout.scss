@@ -204,6 +204,30 @@
     }
 }
 
+.static-center-button {
+    max-width:500px;
+    margin 0 auto;
+    background-color:$dark;
+    color:$light;
+    border-radius: 25px 25px 25px 25px;
+    padding:15px;
+    line-height:1.75
+
+    & a {
+        color: $light;
+        text-decoration: underline;
+
+        &:hover {
+            color: $light;
+            text-decoration: none;
+        }
+    }
+
+    & h1 {
+        font-size: 1.5em;
+    }
+}
+
 .center-button-text {
   color: #e9edf1;
   line-height: 0;
