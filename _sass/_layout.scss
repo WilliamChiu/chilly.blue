@@ -141,15 +141,31 @@
  * Additional Thingies
  */
 
+@-webkit-keyframes rotate-to-box {
+    25% { border-radius: 50% 50% 50% 25px; -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+    50% { border-radius: 50% 50% 25px 25px; -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+    75% { border-radius: 50% 25px 25px 25px; -webkit-transform: rotate(270deg); transform: rotate(270deg); }
+    100% { border-radius: 25px 25px 25px 25px; -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
 @keyframes rotate-to-box {
-    25% { border-radius: 50% 50% 50% 25px; transform: rotate(90deg); }
-    50% { border-radius: 50% 50% 25px 25px; transform: rotate(180deg); }
-    75% { border-radius: 50% 25px 25px 25px; transform: rotate(270deg); }
-    100% { border-radius: 25px 25px 25px 25px; transform: rotate(360deg); }
+    25% { border-radius: 50% 50% 50% 25px; -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+    50% { border-radius: 50% 50% 25px 25px; -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+    75% { border-radius: 50% 25px 25px 25px; -webkit-transform: rotate(270deg); transform: rotate(270deg); }
+    100% { border-radius: 25px 25px 25px 25px; -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-webkit-keyframes expand-square {
+  100% {  min-height: none; max-height: none; min-width: none; max-width: 500px; }
 }
 
 @keyframes expand-square {
   100% {  min-height: none; max-height: none; min-width: none; max-width: 500px; }
+}
+
+@-webkit-keyframes display-text {
+  50%, 100% { line-height: inherit; }
+  100% { opacity: 1;}
 }
 
 @keyframes display-text {
@@ -168,6 +184,8 @@
     border-radius:50% 50% 50% 50%;
     padding:15px;
     line-height:1.75;
+    -webkit-animation: rotate-to-box 1000ms 1000ms linear forwards,
+        expand-square 1000ms 2000ms forwards;
     animation: rotate-to-box 1000ms 1000ms linear forwards,
         expand-square 1000ms 2000ms forwards;
 
@@ -190,6 +208,7 @@
   color: #e9edf1;
   line-height: 0;
   opacity: 0;
+  -webkit-animation: display-text 1000ms 3000ms forwards;
   animation: display-text 1000ms 3000ms forwards;
 }
 
