@@ -169,7 +169,7 @@
     padding:15px;
     line-height:1.75;
     animation: rotate-to-box 1000ms 1000ms linear forwards,
-        expand-square 200ms 2000ms forwards;
+        expand-square 1000ms 2000ms forwards;
 
     & a {
         color: $light;
@@ -190,7 +190,7 @@
   color: #e9edf1;
   line-height: 0;
   opacity: 0;
-  animation: display-text 200ms 2000ms forwards;
+  animation: display-text 1000ms 3000ms forwards;
 }
 
 body {
