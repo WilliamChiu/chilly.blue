@@ -164,13 +164,13 @@
 }
 
 @-webkit-keyframes display-text {
-  50%, 100% { line-height: 1.75; }
-  100% { opacity: 1;}
+  50% { line-height: 1.75; }
+  100% { opacity: 1; line-height: 1.75; }
 }
 
 @keyframes display-text {
-  50%, 100% { line-height: 1.75; }
-  100% { opacity: 1;}
+  50% { line-height: 1.75; }
+  100% { opacity: 1; line-height: 1.75; }
 }
 
 .center-button {
@@ -208,8 +208,8 @@
   color: #e9edf1;
   line-height: 0;
   opacity: 0;
-  -webkit-animation: display-text 300ms 3000ms forwards;
-  animation: display-text 300ms 3000ms forwards;
+  -webkit-animation: display-text 300ms 2300ms forwards;
+  animation: display-text 300ms 2300ms forwards;
 }
 
 body {
