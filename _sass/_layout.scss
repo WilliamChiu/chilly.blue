@@ -165,11 +165,11 @@
     margin: 0 auto;
     background-color:$dark;
     color:$light;
-    border-radius:25px;
+    border-radius:50% 50% 50% 50%;
     padding:15px;
     line-height:1.75;
-    animation: rotate-to-box 300ms 1000ms linear forwards,
-        expand-square 200ms 1300ms forwards;
+    animation: rotate-to-box 1000ms 1000ms linear forwards,
+        expand-square 200ms 2000ms forwards;
 
     & a {
         color: $light;
@@ -190,7 +190,7 @@
   color: #e9edf1;
   line-height: 0;
   opacity: 0;
-  animation: display-text 100ms 2000ms forwards;
+  animation: display-text 200ms 2000ms forwards;
 }
 
 body {
