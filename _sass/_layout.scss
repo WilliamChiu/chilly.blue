@@ -140,14 +140,36 @@
 /**
  * Additional Thingies
  */
+
+@keyframes rotate-to-box {
+    25% { border-radius: 50% 50% 50% 25px; transform: rotate(90deg); }
+    50% { border-radius: 50% 50% 25px 25px; transform: rotate(180deg); }
+    75% { border-radius: 50% 25px 25px 25px; transform: rotate(270deg); }
+    100% { border-radius: 25px 25px 25px 25px; transform: rotate(360deg); }
+}
+
+@keyframes expand-square {
+  100% {  min-height: none; max-height: none; min-width: none; max-width: 500px; }
+}
+
+@keyframes display-text {
+  50%, 100% { line-height: inherit; }
+  100% { opacity: 1;}
+}
+
 .center-button {
-    max-width: 500px;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
     margin: 0 auto;
     background-color:$dark;
     color:$light;
     border-radius:25px;
     padding:15px;
     line-height:1.75;
+    animation: rotate-to-box 300ms 1000ms linear forwards,
+        expand-square 200ms 1300ms forwards;
 
     & a {
         color: $light;
@@ -162,6 +184,17 @@
     & h1 {
         font-size: 1.5em;
     }
+}
+
+.center-button-text {
+  color: #e9edf1;
+  line-height: 0;
+  opacity: 0;
+  animation: display-text 100ms 2000ms forwards;
+}
+
+body {
+  font: 400 16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .poem {
