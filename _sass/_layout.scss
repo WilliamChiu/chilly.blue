@@ -185,9 +185,9 @@
     padding:15px;
     line-height:1.75;
     -webkit-animation: rotate-to-box 1000ms 1000ms linear forwards,
-        expand-square 300ms 2000ms forwards;
+        expand-square 300ms 2000ms ease-in-out forwards;
     animation: rotate-to-box 1000ms 1000ms linear forwards,
-        expand-square 300ms 2000ms forwards;
+        expand-square 300ms 2000ms ease-in-out forwards;
 
     & a {
         color: $light;
@@ -208,8 +208,8 @@
   color: #e9edf1;
   line-height: 0;
   opacity: 0;
-  -webkit-animation: display-text 300ms 2300ms forwards;
-  animation: display-text 300ms 2300ms forwards;
+  -webkit-animation: display-text 300ms 2300ms ease-in-out forwards;
+  animation: display-text 300ms 2300ms ease-in-out forwards;
 }
 
 body {
