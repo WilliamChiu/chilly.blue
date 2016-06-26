@@ -282,8 +282,8 @@ body {
     }
 
     .head-drawing {
-        -webkit-animation: expand-head none 0ms linear forwards;
-        animation: expand-head none 0ms linear forwards;
+        -webkit-animation: expand-head 0 0 linear forwards;
+        animation: expand-head 0 0 linear forwards;
     }
 
     .site-header {
