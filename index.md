@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% include chillyblue.svg %}
-<br/>
 <div class="center-button"><div class="center-button-text" markdown="1">
 # Hi, my name is Billy Chiu.
 
