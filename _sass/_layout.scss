@@ -282,11 +282,8 @@ body {
     }
 
     .head-drawing {
-        width:0%;
-        height:0%;
-        opacity:0;
-        -webkit-animation: expand-head 0ms 0ms linear forwards;
-        animation: expand-head 0ms 0ms linear forwards;
+        width:100%;
+        height:100%;
     }
 
     .site-header {
