@@ -282,11 +282,7 @@ body {
     }
 
     .head-drawing {
-        width:100%;
-        height:100%;
-        opacity:1;
-        animation: none;
-        -webkite-animation: none;
+        animation-duration: none;
     }
 
     .site-header {
