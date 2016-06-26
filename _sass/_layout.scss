@@ -281,6 +281,14 @@ body {
         border-radius: 0;
     }
 
+    .head-drawing {
+        width:0%;
+        height:0%;
+        opacity:0;
+        -webkit-animation: expand-head 0ms 0ms linear forwards;
+        animation: expand-head 0ms 0ms linear forwards;
+    }
+
     .site-header {
         border-radius: 0;
     }
