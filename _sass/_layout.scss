@@ -282,6 +282,9 @@ body {
     }
 
     .head-drawing {
+        width:100%;
+        height:100%;
+        opacity:1;
         -webkit-animation: expand-head 0s 0s linear forwards;
         animation: expand-head 0s 0s linear forwards;
     }
