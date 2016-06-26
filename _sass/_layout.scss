@@ -173,6 +173,17 @@
   100% { opacity: 1; line-height: 1.75; }
 }
 
+@-webkit-keyframes expand-head {
+    0% { opacity:0; width:0%; height:0%;}
+    100% {opacity:1; width:100%; height:100%;}
+}
+
+@keyframes expand-head {
+    0% { opacity:0; width:0%; height:0%;}
+    50% { opacity:0; width: 100%; height:100%; }
+    100% {opacity:1; width:100%; height:100%;}
+}
+
 .center-button {
     max-width: 100px;
     max-height: 100px;
@@ -234,6 +245,14 @@
   opacity: 0;
   -webkit-animation: display-text 300ms 2300ms ease-in-out forwards;
   animation: display-text 300ms 2300ms ease-in-out forwards;
+}
+
+.head-drawing {
+    width:0%;
+    height:0%;
+    opacity:0;
+    -webkit-animation: expand-head 2000ms 1000ms linear forwards;
+    animation: expand-head 2000ms 1000ms linear forwards;
 }
 
 body {
