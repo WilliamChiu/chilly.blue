@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Fleshed Out Socket.io Demo"
-date:   2016-06-10
+date:   2016-06-16
 categories: socketio demo chat
 ---
 
