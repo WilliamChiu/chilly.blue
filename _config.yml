@@ -11,7 +11,7 @@ email: william@chilly.blue
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chilly.blue" # the base hostname & protocol for your site
 github_username:  williamchiu
-description: The personal website of Billy Chiu.
+description: A personal blog of Billy Chiu.
 
 permalink: pretty
 
