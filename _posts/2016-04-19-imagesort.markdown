@@ -5,7 +5,7 @@ date:   2016-04-19
 categories: quicksort p5.js
 ---
 
-Drag an image into the box below to sort the pixels by brightness using an iterative version of the quicksort algorithm.  
+Drag an image into the box below to sort the pixels by brightness using an iterative version of the quicksort algorithm. Edit: and by iterative, I mean I replaced the stack with an array :p  
 As a heads up, when the image looks "sorted", it still has a long way to go. This could be best seen in [this quicksort visualization by Timo Bingmann](https://www.youtube.com/watch?v=8hEyhs3OV1w).
 
 <script src="/libraries/p5.js" type="text/javascript"></script>
