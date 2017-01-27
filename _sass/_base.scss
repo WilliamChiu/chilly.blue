@@ -13,6 +13,10 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html {
+    overflow-y: scroll;
+}
+
 body {
     margin: 0 auto;
     max-width: 1366px;

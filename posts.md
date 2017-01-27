@@ -20,6 +20,6 @@ permalink: /posts/
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include materialIconPartial.html icon="rss_feed" %}</a>
 
 </div>

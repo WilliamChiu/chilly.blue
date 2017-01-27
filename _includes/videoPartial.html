@@ -1,5 +1,5 @@
-<video width="100%" height="100%" controls>
-	{% for content in include.contents %}
+<video width="{{ include.contents.options.width | default: "100%" }}" height="{{ include.contents.options.width | default: "100%" }}" {{ include.contents.options.attributes }}>
+	{% for content in include.contents.sources %}
 		<source src="{{ content.src }}" type="{{ content.type }}">
   	{% endfor %}
 </video> 

@@ -4,7 +4,10 @@ title:  "I'm Still Around"
 date:   2017-01-27
 categories: league-of-legends short
 videos:
-  leagueplay: 
+  leagueplay:
+    options:
+      attributes: controls loop
+    sources:
     - src: /media/7-2_NA1-2409851080_03.webm
       type: video/webm
     - src: /media/7-2_NA1-2409851080_03.mp4
