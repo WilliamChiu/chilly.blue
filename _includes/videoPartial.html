@@ -1,3 +1,5 @@
 <video width="100%" height="100%" controls>
-  <source src="{{ include.content }}" type="{{ include.type }}">
+	{% for content in include.contents %}
+		<source src="{{ content.src }}" type="{{ content.type }}">
+  	{% endfor %}
 </video> 
