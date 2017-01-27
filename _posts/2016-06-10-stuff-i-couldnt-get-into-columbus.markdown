@@ -6,7 +6,8 @@ categories: poetry
 ---
 
 <p>Two Two Eight Two Four Five.</p>
-</br>
+
+
 <p>Young man,</p>
 <p>There's an ATM across the street.</p>
 <p>Use it - get some cash,</p>
@@ -14,7 +15,8 @@ categories: poetry
 <p>Do me</p>
 <p>A favor and,</p>
 <p>Get off the line.</p>
-</br>
+
+
 <p>I'll pay in cash.</p>
 <p>Thanks for the help, man.</p>
 <p>I pay you back.</p>
@@ -22,11 +24,13 @@ categories: poetry
 <p>This guy though.</p>
 <p>I don't understand.</p>
 <p>What's with this guy though.</p>
-</br>
+
+
 <p>Are you going?</p>
 <p>No no id rather stay</p>
 <p>At home.</p>
-</br>
+
+
 <p>The fifty something</p>
 <p>Year old lady.</p>
 <p>From the projects</p>
@@ -40,7 +44,8 @@ categories: poetry
 <p>For us even though we don't know her</p>
 <p>For me even though I stole</p>
 <p>Her story because I loved her</p>
-</br>
+
+
 <p>Yawns rumble</p>
 <p>In the ears rumble</p>
 <p>Dance floor rumble</p>
@@ -50,14 +55,16 @@ categories: poetry
 <p>A dozen jacks and their phones</p>
 <p>Rumble</p>
 <p>Jackshit</p>
-</br>
+
+
 <p>I like what you did</p>
 <p>With your eyes</p>
 <p>But I didn't tell you</p>
 <p>And I kind of am</p>
 <p>Losing course of where</p>
 <p>I'm heading</p>
-</br>
+
+
 <p>Trinity tiger</p>
 <p>It's natural</p>
 <p>We all are trinity Tigers</p>
@@ -69,7 +76,8 @@ categories: poetry
 <p>Expecting tigers to tiger</p>
 <p>Tiger tiger tiger tiger tiger tiger tiger?</p>
 <p>No tiger.</p>
-</br>
+
+
 <p>Did you not get the hint?</p>
 <p>The hint?</p>
 <p>The</p>
@@ -80,7 +88,8 @@ categories: poetry
 <p>Sir friend Madame</p>
 <p>Mademoiselle</p>
 <p>I like that one there</p>
-</br>
+
+
 <p>You are not the type</p>
 <p>Right?</p>
 <p>I will kill you if you don't</p>
@@ -89,7 +98,8 @@ categories: poetry
 <p>Don't care about you</p>
 <p>Enough to have the slightest</p>
 <p>Inclination to help you.</p>
-</br>
+
+
 <p>Knees weak</p>
 <p>Arms are in the air</p>
 <p>Got you with my eyes</p>
@@ -102,7 +112,8 @@ categories: poetry
 <p>Perhaps even a test day</p>
 <p>It's late and time</p>
 <p>To sleep</p>
-</br>
+
+
 <p>Dragons breath</p>
 <p>Bursting out from the side</p>
 <p>Alluring</p>
@@ -110,7 +121,8 @@ categories: poetry
 <p>Spiteful jealous self harming</p>
 <p>Two sides of a coin</p>
 <p>A coin buried in shit</p>
-</br>
+
+
 <p>Dear maxi kaxi</p>
 <p>Do you see what's going on</p>
 <p>Do you see</p>
@@ -119,9 +131,11 @@ categories: poetry
 <p>Im no fellow</p>
 <p>Who knows what I am</p>
 <p>I only know I'm not</p>
-</br>
+
+
 <p>Four One Six Nine Five Nine.</p>
-</br>
+
+
 <p>Butterflies and lullabies pretending to fly free,</p>
 <p>Flying thoughts and flowing dreams,</p>
 <p>Foie gras of human flesh,</p>
@@ -153,9 +167,11 @@ categories: poetry
 <p>Looking upwards at you with awe.</p>
 <p>You make it out as if,</p>
 <p>I'm just as special as you are.</p>
-</br>
+
+
 <p>Five Three Four Three Nine.</p>
-</br>
+
+
 <p>And listening to all the people around things get clearer,</p>
 <p>Sometimes looking inwards does nothing to fix the problem.</p>
 <p>But still, the key to the outside may be locked up inside.</p>
