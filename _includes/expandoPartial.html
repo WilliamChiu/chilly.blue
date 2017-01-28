@@ -1,0 +1,7 @@
+<a class="expando material-icons" onclick="toggleElement(this)"></a>
+<script>
+	function toggleElement(button) {
+		button.classList.toggle("opened");
+		document.getElementById("{{ include.id }}").classList.toggle("opened");
+	}
+</script>

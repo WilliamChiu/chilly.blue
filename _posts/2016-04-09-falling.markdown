@@ -11,11 +11,10 @@ To give a sense of the enthusiasm I had for the game, here's [one of my more pop
 
 I'm really glad to see that Powder Game and its successors are still thriving! However, I also found out that the Powder Game chat that I frequented has been [abandoned](http://xat.com/1991roncampo). Tragic.
 
-Anyways, try the following buttons, "r, g, b, c, space". Also left click and right click. For whatever reason, the darn thing freezes the entire page for a good 3 seconds once you click anywhere... anywhere on the page..
+Anyways, try the following buttons, "r, g, b, c, space". Also left click and right click. For whatever reason, the darn thing freezes the entire page for a good 3 seconds once you click anywhere... anywhere on the page.. {% include expandoPartial.html id="Falling" %}
 
-### If you're frozen, press the canvas and then press 'c'. Sorry.
 <script src="/processing/processing.js" type="text/javascript"></script>
-<canvas id="Falling" data-processing-sources="/processing/Falling.pde" width="500" height="500"> </canvas>
+<canvas id="Falling" class="expando-target" data-processing-sources="/processing/Falling.pde" width="500" height="500"> </canvas>
 
 This ended up very bad. I guess it serves as an homage to the beautifully done Powder Game in a "look at how slow this is in comparison" way.
 

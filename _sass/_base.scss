@@ -98,16 +98,8 @@ a {
     color: $neutral;
     text-decoration: none;
 
-    &:visited {
-        color: $dark;
-    }
-
     &:hover {
         color: $dark;
-    }
-
-    &:visited:hover {
-        color: $neutral;
     }
 
 }
@@ -119,7 +111,7 @@ a {
  */
 blockquote {
     color: $dark;
-    border-left: 4px solid $light;
+    border-left: 4px solid $dark;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;

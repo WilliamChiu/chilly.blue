@@ -188,6 +188,22 @@
     }
 }
 
+.expando::after {
+    content: "expand_more";
+}
+
+.expando.opened::after {
+    content: "expand_less";
+}
+
+.expando-target {
+    display:none;
+
+    &.opened {
+        display: block;
+    }
+}
+
 /**
  * ATM not needed but for reference and future use.
  */
