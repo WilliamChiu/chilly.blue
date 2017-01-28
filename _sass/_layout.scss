@@ -13,11 +13,13 @@
     position: relative;
 
     & a {
+        display: inline-block;
         color: $light;
 
         &:hover {
             color: $light;
-            text-shadow: 0px 0px 20px $light;
+            transform: translateY(-3px);
+            animation-duration: 400ms;
         }
     }
 }

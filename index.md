@@ -1,5 +1,7 @@
 ---
+title: home
 layout: default
+icon: face
 ---
 
 {% include chillyblue.svg %}
