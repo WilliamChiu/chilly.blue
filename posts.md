@@ -1,6 +1,6 @@
 ---
 layout: page
-title: posts
+title: Posts
 icon: book
 permalink: /posts/
 ---

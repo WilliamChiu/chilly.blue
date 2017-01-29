@@ -24,3 +24,13 @@ gems:
 
 sass:
     style: compressed
+
+social_media:
+  - icon: facebook-box
+    url: https://www.facebook.com/billychillybluechiu
+  - icon: github-box
+    url: https://github.com/WilliamChiu
+  - icon: linkedin-box
+    url: https://www.linkedin.com/in/william-chiu-2a192033
+  - icon: email
+    url: mailto:william@chilly.blue

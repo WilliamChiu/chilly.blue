@@ -1,7 +1,15 @@
 <header class="site-header no-print">
 
   <div class="wrapper">
-
+    <nav class="site-nav" style="float:left">
+      <div class="trigger">
+        {% for link in site.social_media %}
+          {% if link.icon %}
+          <a class="page-link" href="{{ link.url }}">{% include mdiPartial.html icon=link.icon %}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
     <nav class="site-nav">
       <div class="trigger">
         {% for my_page in site.pages %}
