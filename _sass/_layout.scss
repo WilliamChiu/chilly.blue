@@ -137,6 +137,10 @@
             font-size: 18px;
         }
     }
+
+    p a {
+        border-bottom: 1px dashed $neutral;
+    }
 }
 
 /**
