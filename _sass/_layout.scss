@@ -140,6 +140,10 @@
 
     p a {
         border-bottom: 1px dashed $neutral;
+
+        &.expando {
+            border: 0;
+        }
     }
 }
 
