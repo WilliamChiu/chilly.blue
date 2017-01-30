@@ -1,0 +1,39 @@
+---
+layout: page
+title: Posts
+icon: book
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="post-list">
+    <span class="post-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</span> </br>
+    {% if paginator.previous_page %}
+      <h2>
+        <a class="post-link" href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      </h2>
+    {% endif %}
+    {% if paginator.next_page %}
+      <h2>
+        <a class="post-link" href="{{ paginator.next_page_path }}" class="next">Next</a>
+      </h2>
+    {% endif %}
+  </div>
+
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include materialIconPartial.html icon="rss_feed" %}</a>
+
+</div>
