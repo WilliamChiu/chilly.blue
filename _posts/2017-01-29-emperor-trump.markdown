@@ -14,7 +14,7 @@ videos:
       type: video/mp4
 ---
 
-Emperor Trump has done [alot](http://www.bbc.com/news/world-us-canada-38768272) in the past week. This BBC article really is trying hard to get over that [Trump outrage dilution](http://blog.dilbert.com/post/156399716951/outrage-dilution). However, its getting to the point where people can't list out all the crap he's done that they disagree with. What really kills me is the last line of that BBC article.
+Emperor Trump has done [a lot](http://www.bbc.com/news/world-us-canada-38768272) in the past week. This BBC article really is trying hard to get over that [Trump outrage dilution](http://blog.dilbert.com/post/156399716951/outrage-dilution). However, its getting to the point where people can't list out all the crap he's done that they disagree with. What really kills me is the last line of that BBC article.
 
 <blockquote>
 Have a relaxing weekend, everyone!
@@ -28,7 +28,7 @@ In other news, I'm still in the process of figuring out what to do with this sit
 
 Also, my roommate has discovered Phantom of the Opera and has been singing it under his breath for the entire day. I hope I can convince him Michael Crawford is the most phantom-y phantom (Ramin Karimloo is good too, but not quite as creepy). However, some credit has to be given to Steve Harley for his glam-rock interpretation...
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QHYEKqF7x-E" frameborder="0" allowfullscreen></iframe>
+{% include youtubePartial.html id="QHYEKqF7x-E" start="65" %}
 
 Last thing. Heres's a league clip.
 
