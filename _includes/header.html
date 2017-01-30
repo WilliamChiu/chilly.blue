@@ -14,7 +14,9 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.icon %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% include materialIconPartial.html icon=my_page.icon %}</a>
+            {% unless my_page.url contains "page" %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% include materialIconPartial.html icon=my_page.icon %}</a>
+            {% endunless %}
           {% endif %}
         {% endfor %}
       </div>
