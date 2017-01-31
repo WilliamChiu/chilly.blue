@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+
+{% capture page-content %}
+{{ content }}
+{% endcapture %}
+
+{% capture word-count %}
+{{ page-content | strip_html | number_of_words }}
+{% endcapture %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -21,7 +30,7 @@ layout: default
     	{% endif %}
     	 • 
     	<span>
-    		{{ content | number_of_words }} words
+    		{{ word-count }} words
     	</span>
     </p>
   </header>

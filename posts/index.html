@@ -10,6 +10,15 @@ icon: book
 
   <ul class="post-list">
     {% for post in paginator.posts %}
+
+      {% capture post-content %}
+      {{ post.content }}
+      {% endcapture %}
+
+      {% capture word-count %}
+      {{ post-content | strip_html | number_of_words }}
+      {% endcapture %}
+
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-meta">{{ post.description }}</span>
@@ -23,7 +32,7 @@ icon: book
         {% endif %}
          • 
         <span class="post-meta">
-          {{ post.content | number_of_words }} words
+          {{ word-count }} words
         </span>
       </li>
     {% endfor %}
