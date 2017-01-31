@@ -11,11 +11,20 @@ icon: book
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></br>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-meta">{{ post.description }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </br>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.author %}
+         • 
+        <span class="post-meta">
+          {{ page.author }}
+        </span>
+        {% endif %}
+         • 
+        <span class="post-meta">
+          {{ content | number_of_words }} words
+        </span>
       </li>
     {% endfor %}
   </ul>
