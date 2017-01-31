@@ -3,6 +3,7 @@ layout: post
 title:  "Emperor Trump"
 date:   2017-01-29
 categories: league-of-legends short trump
+description: Everybody's decided weekends aren't the time for being upset.
 videos:
   leagueplay:
     options:

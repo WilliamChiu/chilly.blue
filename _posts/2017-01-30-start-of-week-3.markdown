@@ -3,6 +3,7 @@ layout: post
 title:  "Start of Week 3"
 date:   2017-01-30
 categories: short columbia help
+description: The student body perpetually gazes outward.
 ---
 
 HELP.

@@ -71,6 +71,8 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        padding-left: 1em;
+        border-left: $neutral solid 0.25em;
     }
 }
 

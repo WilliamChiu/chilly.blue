@@ -3,6 +3,7 @@ layout: post
 title:  "I'm Still Around"
 date:   2017-01-27
 categories: league-of-legends short
+description: Want to post a league play but have to write over 150 words for Google.
 videos:
   leagueplay:
     options:

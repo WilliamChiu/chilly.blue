@@ -3,6 +3,7 @@ layout: post
 title:  "新年快樂"
 date:   2017-01-28
 categories: short
+description: 我愛王鵬。我愛李友。
 ---
 
 Happy Chinese New Year!

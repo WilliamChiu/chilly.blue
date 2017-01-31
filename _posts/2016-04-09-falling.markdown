@@ -3,6 +3,7 @@ layout: post
 title:  "Falling"
 date:   2016-04-09
 categories: webtoy falling sand
+description: For first posts, this could've been much much worst.
 ---
 
 Earlier, I was thinking of one of my favorite games growing up: [Dan Ball's Powder Game](http://dan-ball.jp/en/javagame/dust/). I remember posting things to the site to see how many votes I could rack up with my creations.

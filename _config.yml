@@ -27,10 +27,6 @@ paginate: 5
 
 paginate_path: "/posts/page:num/"
 
-nav_pages:
-  - 
-  - /posts/
-
 sass:
     style: compressed
 
