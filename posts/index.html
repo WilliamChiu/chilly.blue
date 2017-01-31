@@ -18,12 +18,12 @@ icon: book
         {% if post.author %}
          • 
         <span class="post-meta">
-          {{ page.author }}
+          {{ post.author }}
         </span>
         {% endif %}
          • 
         <span class="post-meta">
-          {{ content | number_of_words }} words
+          {{ post.content | number_of_words }} words
         </span>
       </li>
     {% endfor %}
