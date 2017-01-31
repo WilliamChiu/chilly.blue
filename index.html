@@ -4,8 +4,6 @@ layout: default
 icon: face
 ---
 
-{% include chillyblue.svg %}
-<div class="center-button"><div class="center-button-text">
 {% capture text %}
 # Hi, my name is Billy Chiu.
 
@@ -16,6 +14,8 @@ In the past, I've worked as a full stack web development intern at [DIDiT Labs](
 Much thanks to Yuka Miyanomae for the awesome drawing!
 {% endcapture %}
 
+{% include chillyblue.svg %}
+<div class="center-button"><div class="center-button-text">
 {{ text | markdownify }}
 </div></div>
 
