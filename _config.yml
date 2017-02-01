@@ -12,6 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chilly.blue" # the base hostname & protocol for your site
 github_username:  williamchiu
 description: A personal blog of Billy Chiu.
+license: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
 
 permalink: pretty
 
@@ -41,3 +42,5 @@ social_media:
     url: https://www.linkedin.com/in/william-chiu-2a192033
   - icon: email
     url: mailto:william@chilly.blue
+
+
