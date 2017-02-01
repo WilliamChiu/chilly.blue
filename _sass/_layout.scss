@@ -33,7 +33,7 @@
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20;
+      margin-right: 20px;
     }
   }
 }
@@ -44,10 +44,6 @@
   border-radius: 0 0 25px 25px;
   color: $dark;
   padding: $spacing-unit 0;
-}
-
-.page-heading {
-  font-size: 20;
 }
 
 .post-list {
@@ -118,7 +114,7 @@
   }
 
   h4 {
-    font-size: 20;
+    font-size: 20px;
 
     @include media-query($on-laptop) {
       font-size: 18px;
