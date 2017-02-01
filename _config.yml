@@ -31,6 +31,10 @@ paginate_path: "/posts/page:num/"
 
 excerpt_separator: ""
 
+compress_html:
+  blanklines: true
+  clippings: all
+
 sass:
     style: compressed
 

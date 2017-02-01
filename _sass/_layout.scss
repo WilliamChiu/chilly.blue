@@ -41,9 +41,8 @@
 // Page content
 .page-content {
   background-color: $light;
-  border-radius: 0 0 25px 25px;
+  border-radius: 25px;
   color: $dark;
-  padding: $spacing-unit 0;
 }
 
 .post-list {
@@ -72,6 +71,10 @@
 }
 
 // Posts
+.post {
+  padding: $spacing-unit 0;
+}
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -212,6 +215,11 @@
 
   .site-header {
     border-radius: 0;
+  }
+
+  .license {
+    color: $light;
+    background-color: $dark;
   }
 }
 

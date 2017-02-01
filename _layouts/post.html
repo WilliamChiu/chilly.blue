@@ -23,26 +23,24 @@ layout: default
         		{{ page.date | date: "%b %-d, %Y" }}
         	</time>
         	{% if page.author %}
-        	 • 
         	<span itemprop="author" itemscope itemtype="http://schema.org/Person">
         		<span itemprop="name">
-        			{{ page.author }}
+        			 • {{ page.author }}
         		</span>
         	</span>
         	{% endif %}
-        	 • 
         	<span>
-        		{{ word-count }} words
+        		 • {{ word-count }} words
         	</span>
+            <span class="aside">
+                 • <a href="{{ page.url }}?hide-asides">Shareable Link</a>
+            </span>
         </div>
     </div>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    <div class="post-share-buttons">
-      {% include shareButtonsPartial.html title=page.title url=page.url %}
-    </div>
   </div>
 
 </article>
