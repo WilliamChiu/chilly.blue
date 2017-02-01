@@ -1,191 +1,168 @@
-/**
- * Site header
- */
+// Site header
 .site-header {
-    background-color: $dark;
-    box-shadow: 0 0 0 5px $dark;
-    -webkit-box-shadow: 0px 0px 0px 5px $dark;
-    -moz-box-shadow: 0px 0px 0px 5px $dark;
-    min-height: 56px;
-    border-radius: 0 0 10px 10px;
+  background-color: $dark;
+  border-radius: 0 0 10 10;
+  box-shadow: 0 0 0 5px $dark;
+  min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  // Positioning context for the mobile navigation icon
+  position: relative;
 
-    & a {
-        display: inline-block;
-        color: $light;
+  a {
+    color: $light;
+    display: inline-block;
 
-        &:hover {
-            color: $light;
-            transform: translateY(-3px);
-            animation-duration: 400ms;
-        }
+    &:hover {
+      animation-duration: 400ms;
+      color: $light;
+      transform: translateY(-3px);
     }
-}
-
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+  }
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+  float: right;
+  line-height: 56px;
 
-    .menu-icon {
-        display: none;
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20;
     }
-
-    .page-link {
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
+  }
 }
 
-/**
- * Page content
- */
+// Page content
 .page-content {
-    padding: $spacing-unit 0;
-    background-color: $light;
-    color: $dark;
-    border-radius: 0 0 25px 25px;
+  background-color: $light;
+  border-radius: 0 0 25px 25px;
+  color: $dark;
+  padding: $spacing-unit 0;
 }
 
 .page-heading {
-    font-size: 20px;
+  font-size: 20;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+  list-style: none;
+  margin-left: 0;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+  > li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $neutral;
+  color: $neutral;
+  font-size: $small-font-size;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+  display: block;
+  font-size: 24px;
 }
 
 .license {
-    text-align: center;
-    color: $neutral;
-    font-size: 12px;
+  color: $neutral;
+  font-size: 12px;
+  text-align: center;
 }
 
-
-
-
-
-/**
- * Posts
- */
+// Posts
 .post-header {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 
-    h1 {
-        font-size: 32px;
+  h1 {
+    font-size: 32px;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
+    @include media-query($on-laptop) {
+      font-size: 28px;
     }
+  }
 
-    h2 {
-        font-size: 29px;
+  h2 {
+    font-size: 29px;
 
-        @include media-query($on-laptop) {
-            font-size: 25px;
-        }
+    @include media-query($on-laptop) {
+      font-size: 25px;
     }
+  }
 
-    h3 {
-        font-size: 26px;
+  h3 {
+    font-size: 26px;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+    @include media-query($on-laptop) {
+      font-size: 22px;
     }
+  }
 
-    h4 {
-        font-size: 20px;
+  h4 {
+    font-size: 20;
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+    @include media-query($on-laptop) {
+      font-size: 18px;
     }
+  }
 
-    p a {
-        border-bottom: 1px dashed $neutral;
+  p a {
+    border-bottom: 1px dashed $neutral;
 
-        &.expando {
-            border: 0;
-        }
+    &.expando {
+      border: 0;
     }
+  }
 }
 
-/**
- * Additional Thingies
- */
+// Additional Thingies
 
 .head-drawing {
-    width: 100%;
-    height: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .center-button {
-    max-width:500px;
-    margin: 0 auto;
-    background-color:$dark;
-    color:$light;
-    border-radius: 25px 25px 25px 25px;
-    padding:15px;
-    line-height:1.75;
+  background-color: $dark;
+  border-radius: 25px;
+  color: $light;
+  line-height: 1.75;
+  margin: 0 auto;
+  max-width: 500;
+  padding: 15px;
 
-    & a {
-        color: $light;
-        text-decoration: underline;
+  a {
+    color: $light;
+    text-decoration: underline;
 
-        &:hover {
-            color: $light;
-            text-decoration: none;
-        }
+    &:hover {
+      color: $light;
+      text-decoration: none;
     }
+  }
 
-    & h1 {
-        font-size: 1.5em;
-    }
+  h1 {
+    font-size: 1.5em;
+  }
 }
 
 .center-button-text {
@@ -193,52 +170,49 @@
 }
 
 .poem {
-    background-color: transparent;
-    color: $dark;
-    line-height: 2;
+  background-color: transparent;
+  color: $dark;
+  line-height: 2;
 }
 
 .hover-fade {
-    &:hover {
-        opacity:0.95;
-    }
+  &:hover {
+    opacity: .95;
+  }
 }
 
 .expando::after {
-    content: "expand_more";
+  content: 'expand_more';
 }
 
 .expando.opened::after {
-    content: "expand_less";
+  content: 'expand_less';
 }
 
 .expando-target {
-    display:none;
+  display: none;
 
-    &.opened {
-        display: block;
-    }
+  &.opened {
+    display: block;
+  }
 }
 
-/**
- * ATM not needed but for reference and future use.
- */
+// ATM not needed but for reference and future use.
 
 @include media-query($on-palm) {
-    .page-content {
-        border-radius: 0;
-    }
+  .page-content {
+    border-radius: 0;
+  }
 
-    .head-drawing {
-        width:100%;
-        height:100%;
-        opacity:1;
-        -webkit-animation: expand-head 0s 0s linear forwards;
-        animation: expand-head 0s 0s linear forwards;
-    }
+  .head-drawing {
+    animation: expand-head 0s 0s linear forwards;
+    height: 100%;
+    opacity: 1;
+    width: 100%;
+  }
 
-    .site-header {
-        border-radius: 0;
-    }
+  .site-header {
+    border-radius: 0;
+  }
 }
 
