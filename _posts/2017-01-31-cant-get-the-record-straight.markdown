@@ -22,5 +22,5 @@ However, is this really a #MuslimBan (Emma Watson is dominating Facebook's trend
 
 This is a ban of citizens from Iran, Iraq, Libya, Somalia, Sudan, Syria and Yemen, stopping them from entering the United States. There is [no mention of a vetting process allowing people in over the 90 day ban](http://news.bbc.co.uk/2/shared/bsp/hi/pdfs/trump_executive_order_refugee_curbs.pdf). The ban was given in order to "reduce investigative burdens on relevant agencies" in their aggressive vetting of individuals.
 
-When Trump gave this executive order, we assume we know what he did and why he did it. We think that what we have formulated in our noggins is close-enough. However, having close-enough facts, having alternative facts, is not good enough. *Know* what you're disputing.
+When Trump gave this executive order, we assume we know what he did and why he did it. We think that what we have formulated in our noggins is close-enough. However, having close-enough facts, having alternative facts, is **not** good enough. *Know* what you're disputing.
 
