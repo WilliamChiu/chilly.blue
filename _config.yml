@@ -44,4 +44,9 @@ social_media:
   - icon: email
     url: mailto:william@chilly.blue
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /favicons/mstile-310x310.png
 
