@@ -28,7 +28,8 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-
+  margin: 0 auto;
+  max-width: calc(#{$content-width} + (#{$spacing-unit} * 4));
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
@@ -147,7 +148,7 @@ pre {
   padding-right: $spacing-unit;
 
   @include media-query($on-laptop) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} *));
     padding-left: $spacing-unit / 2;
     padding-right: $spacing-unit / 2;
   }
