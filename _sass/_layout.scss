@@ -220,6 +220,10 @@
   .license {
     color: $light;
     background-color: $dark;
+
+    a {
+      color: $neutral;
+    }
   }
 }
 
