@@ -6,7 +6,7 @@ categories: toggle design RES
 description: I guess the main take away is that design is hard.
 ---
 
-Happy Apple earnings day!
+Apple released earnings, and they're not half bad!
 
 In celebration, here's a post about toggles.
 
@@ -46,7 +46,7 @@ Let's talk about Reddit Enchancement Suite's (RES for short) toggles. RES uses t
 
 However, when translating RES, they found out "On" and "Off" weren't such short, relatively evenly-spaced words in languages such as Spanish. 
 
-{% include imagePartial.html src="https://cloud.githubusercontent.com/assets/455632/22131517/d504fb46-de68-11e6-9883-d0f3d0b4ac40.png" width="default" %}
+{% include imagePartial.html src="https://cloud.githubusercontent.com/assets/455632/22131517/d504fb46-de68-11e6-9883-d0f3d0b4ac40.png" %}
 
 The initial thought was that we could just replace On/Off with ✓/✕. However, ✓/✕ are not universal symbols! ✕ could be construed as "On". In some other cultures "o" would signify something as being selected. In those cultures, ✓ would replace the ✕ as being wrong.
 
