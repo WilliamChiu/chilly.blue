@@ -47,6 +47,8 @@ social_media:
     url: https://www.linkedin.com/in/william-chiu
   - icon: email
     url: mailto:william@chilly.blue
+  - icon: paperclip
+    url: /media/wnc2105Resume.pdf
 
 defaults:
   - scope:
