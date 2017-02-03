@@ -45,10 +45,10 @@ social_media:
     url: https://github.com/WilliamChiu
   - icon: linkedin-box
     url: https://www.linkedin.com/in/william-chiu
-  - icon: email
-    url: mailto:william@chilly.blue
   - icon: file-document
     url: /media/wnc2105Resume.pdf
+  - icon: email
+    url: mailto:william@chilly.blue
 
 defaults:
   - scope:
