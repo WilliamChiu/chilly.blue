@@ -35,6 +35,6 @@ We started off with trying to handle authentification. To do this, we eventually
 
 The idea remains fairly fresh. As such, I'm going to keep learning React as well as es6 in order to try to make this app in my own time. If teammembers are interested in working on it, I'll be happy to work with them. Honestly, I think we had a great team. We even had a Rick & Morty break (lol).
 
-Although I'm sure my words read like mud, I'm proud of the work we did over those 18 hours. For a first Hackathon, we did not do half bad. In addition, my interest for React and Firebase has been sparked. The potential uses for full fledged mobile apps to this very website mean I've got to learn to use these technologies!
+Although I'm sure my words read like mud, I'm proud of the work we did over those 18 hours. For a first Hackathon, we did not do half bad. In addition, my interest for React and Firebase has been sparked. The potential uses for full fledged mobile apps to this very website mean I've got to learn to use these technologies.
 
 

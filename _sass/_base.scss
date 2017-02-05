@@ -107,10 +107,6 @@ blockquote {
   font-style: italic;
   letter-spacing: -1px;
   padding-left: $spacing-unit / 2;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
 }
 
 // Code formatting
