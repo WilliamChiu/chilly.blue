@@ -1,5 +1,6 @@
 <script>
-eval(google_analytics);
+var a = eval(google_analytics);
+a();
 
 function google_analytics() {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
