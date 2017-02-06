@@ -1,4 +1,5 @@
-/*! CSS rel=preload polyfill. Depends on loadCSS function. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT  */
+<script>
+ /*! CSS rel=preload polyfill. Depends on loadCSS function. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT  */
 (function( w ){
   // rel=preload support test
   if( !w.loadCSS ){
@@ -42,3 +43,4 @@
     }
   }
 }( this ));
+</script>
