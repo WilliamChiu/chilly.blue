@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 // Reset some basic elements
 body,
@@ -21,7 +21,7 @@ figure {
 }
 
 html {
-	overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 body {
@@ -48,8 +48,8 @@ dl,
 figure,
 header,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit;
   font-weight: 100;
+  margin-bottom: $spacing-unit;
 }
 
 // Icons
@@ -113,7 +113,7 @@ header,
 
 .license {
   color: $neutral;
-  font-size: $small-font-size;
+  font-size: $small-font-size / 2;
   text-align: center;
 }
 
@@ -130,9 +130,9 @@ a {
 }
 
 // Mobile
-@media only screen 
-  and (max-device-width: $content-width) { 
-    html {
-      font-size: 90%;
-    }
+@media only screen
+  and (max-device-width: $content-width) {
+  html {
+    font-size: 90%;
+  }
 }
