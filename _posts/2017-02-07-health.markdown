@@ -6,7 +6,9 @@ categories: blog health update
 description: Do programmers make bad parents?
 ---
 
-And here is my post about health. Oh boy, do I feel deceptive right now... to you... my nonexistent audience. When I said health, I mostly meant the health of this site. If you were not aware, this site is hosted by Github as part of Github Pages. The only reason I have a .blue domain is that I bought it off Namecheap. Over the years I've slowly added features to it. Originally, if you roll back the clock long enough, you would see that this blog used to be a Jekyll Now blog. In fact, in those days, I wrote a few posts as well, but I considered them too cringe to include, and as such, they're lost somewhere in the Github commit history.
+And here is my post about health. Oh boy, do I feel deceptive right now... to you... dear shadows on the wall. When I said health, I mostly meant the health of this site. If you didn't know, this site is hosted by Github, thhe files are kept on Github, and served as part of Github Pages. The only reason I have a .blue domain is that I bought it off Namecheap. Over the years I've slowly added features to this blog, some of which have remained to this very day. Originally, and you could see this if you roll back the clock long enough, this blog was the fork, a clone of, a Jekyll Now blog. 
+
+In fact, in those days, I wrote a few posts as well, but I considered them too cringey to include, and as such, they're lost somewhere in this repo's Github commit history.
 
 Recently, I've done a lot to spruce up this blog. Most importantly, I've been writing on a semi daily basis. It is supposed to be daily, but sometimes my schedule (or my laziness) simply doesn't allow for it, just as he who, with exhausted breath, having slept but three hours, slams the alarm and turns back to watch the shadows fall, so am I a lazy butt.
 
@@ -23,6 +25,6 @@ Although I'm continually unsatisfied with the cruddiness of my writing, my lack 
 
 And now...
 
-* Complete overhaul of the clunky CSS.
+* Complete overhaul of the clunky CSS. Woohoo.
 
 Oh boy will this be a joy.

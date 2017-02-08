@@ -136,3 +136,21 @@ a {
     font-size: 90%;
   }
 }
+
+// Print
+@media print {
+  .no-print,
+  .no-print * {
+    display: none;
+  }
+
+  .print-simplify,
+  .print-simplify * {
+    border-style: none;
+    color: $black;
+  }
+
+  .license {
+    display: none;
+  }
+}
