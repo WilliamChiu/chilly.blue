@@ -32,3 +32,13 @@ blockquote {
   letter-spacing: -1px;
   padding-left: $spacing-unit / 2;
 }
+
+.post-meta {
+  color: $neutral;
+  font-size: $small-font-size;
+}
+
+.post-link {
+  display: block;
+  font-size: $small-font-size;
+}
