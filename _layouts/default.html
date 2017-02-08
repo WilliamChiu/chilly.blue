@@ -14,7 +14,7 @@ layout: compress
     {% endif %}
   {% endcapture %}
 
-  {% assign stylesheet = stylesheet | lstrip %}
+  {% assign stylesheet = stylesheet | strip %}
 
   {% include head.html styles=stylesheet %}
 
