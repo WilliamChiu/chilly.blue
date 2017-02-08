@@ -1,0 +1,34 @@
+---
+# Post CSS
+---
+
+@import "variables";
+
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 42px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+p a {
+	border-bottom: 1px dashed $neutral;
+
+	&.expando {
+	  border: 0;
+	}
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $dark;
+  color: $dark;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: -1px;
+  padding-left: $spacing-unit / 2;
+}

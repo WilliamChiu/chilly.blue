@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Health"
+date:   2017-02-07
+categories: blog health update
+description: Do programmers make bad parents?
+---
+
+And here is my post about health. Oh boy, do I feel deceptive right now... to you... my nonexistent audience. When I said health, I mostly meant the health of this site. If you were not aware, this site is hosted by Github as part of Github Pages. The only reason I have a .blue domain is that I bought it off Namecheap. Over the years I've slowly added features to it. Originally, if you roll back the clock long enough, you would see that this blog used to be a Jekyll Now blog. In fact, in those days, I wrote a few posts as well, but I considered them too cringe to include, and as such, they're lost somewhere in the Github commit history.
+
+Recently, I've done a lot to spruce up this blog. Most importantly, I've been writing on a semi daily basis. It is supposed to be daily, but sometimes my schedule (or my laziness) simply doesn't allow for it, just as he who, with exhausted breath, having slept but three hours, slams the alarm and turns back to watch the shadows fall, so am I a lazy butt.
+
+Although I'm continually unsatisfied with the cruddiness of my writing, my lack of voice, my fear of asserting anything of value, I'm even more dissatisfied with the code behind this damn thing. Being on Github, you could look through it if you want. I've done a lot to try to refurbish it in the past two weeks. This is only what I could recall now.
+
+* Started using Pagination for my posts page.
+* Added a correct word count for each post using strip_html to get rid of HTML tags and Liquid logic.
+* Moved some logic into "partials" that I put in the "_includes" folder. I need to reorganize what exactly is in that folder.
+* Similarly, my media folder is kind of a hunk of random unorganized junk.
+* Used icons in the nav in an attempt at being more intuitive. Good grief is it not working.
+* Added descriptions for all my posts.
+* Added a shareable link for each posts that essentially cuts off the content from the rest of the site.
+* Chose a attribution license (I live life on the edge) for the blog content and an MIT license for the repository.
+
+And now...
+
+* Complete overhaul of the clunky CSS.
+
+Oh boy will this be a joy.

@@ -1,0 +1,46 @@
+---
+# Posts CSS
+---
+
+@import "variables";
+
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 42px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+
+  a {
+    color: $dark;
+    text-decoration: none;
+
+    &:hover {
+      color: $neutral;
+    }
+
+  }
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  color: $neutral;
+  font-size: $small-font-size;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}

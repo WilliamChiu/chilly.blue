@@ -1,0 +1,138 @@
+@import "variables";
+
+// Reset some basic elements
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  margin: 0 auto;
+  max-width: calc(#{$content-width} + (#{$spacing-unit} * 4));
+}
+
+// Set `margin-bottom` to maintain vertical rhythm
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+header,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit;
+  font-weight: 100;
+}
+
+// Icons
+.material-icons {
+  vertical-align: middle;
+}
+
+.mdi::before {
+  vertical-align: middle;
+}
+
+// Site header
+.site-header {
+  background-color: $dark;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 0 5px $dark;
+
+  a {
+    color: $light;
+    display: inline-block;
+
+    &:hover {
+      animation-duration: 400ms;
+      color: $light;
+      transform: translateY(-3px);
+    }
+  }
+}
+
+.site-nav {
+  line-height: 56px;
+
+  .page-link {
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+// Page content
+.page-content {
+  background-color: $light;
+  border-radius: 25px;
+  color: $dark;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  padding: $spacing-unit;
+}
+
+.nav-wrapper {
+  margin: auto;
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  padding: 0 $spacing-unit;
+}
+
+.license {
+  color: $neutral;
+  font-size: $small-font-size;
+  text-align: center;
+}
+
+
+// Links
+a {
+  color: $neutral;
+  text-decoration: none;
+
+  &:hover {
+    color: $dark;
+  }
+
+}
+
+// Mobile
+@media only screen 
+  and (max-device-width: $content-width) { 
+    body {
+      font-size: 80%;
+    }
+}
