@@ -9,7 +9,7 @@
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: $base-font-size * 3;
   font-weight: 100;
   letter-spacing: -1px;
   line-height: 1;
@@ -42,5 +42,5 @@
 
 .post-link {
   display: block;
-  font-size: 24px;
+  font-size: $small-font-size;
 }

@@ -113,6 +113,7 @@ header,
 
 .license {
   color: $neutral;
+  font-size: $small-font-size;
   text-align: center;
 }
 
@@ -131,7 +132,7 @@ a {
 // Mobile
 @media only screen 
   and (max-device-width: $content-width) { 
-    body {
-      font-size: 80%;
+    html {
+      font-size: 70%;
     }
 }

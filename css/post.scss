@@ -9,7 +9,7 @@
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: $base-font-size * 3;
   font-weight: 100;
   letter-spacing: -1px;
   line-height: 1;
@@ -27,7 +27,7 @@ p a {
 blockquote {
   border-left: 4px solid $dark;
   color: $dark;
-  font-size: 18px;
+  font-size: $base-font-size;
   font-style: italic;
   letter-spacing: -1px;
   padding-left: $spacing-unit / 2;
