@@ -25,5 +25,5 @@ I've also pretty surprisingly enjoyed my core classes. Lit Hum and Fro Sci are n
 
 Alright, I should call it a night. It's 4 AM. To close things up, here's a nice clip from a game I just played while procrastinating.
 
-{% include videoPartial.html contents=page.videos.leagueplay %}
+{% include partials/videoPartial.html contents=page.videos.leagueplay %}
 

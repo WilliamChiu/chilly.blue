@@ -29,9 +29,9 @@ In other news, I'm still in the process of figuring out what to do with this sit
 
 Also, my roommate has discovered Phantom of the Opera and has been singing it under his breath for the entire day. I hope I can convince him Michael Crawford is the most phantom-y phantom (Ramin Karimloo is good too, but not quite as creepy). However, some credit has to be given to Steve Harley for his glam-rock interpretation...
 
-{% include youtubePartial.html id="QHYEKqF7x-E" start="65" %}
+{% include partials/youtubePartial.html id="QHYEKqF7x-E" start="65" %}
 
 Last thing. Heres's a league clip.
 
-{% include videoPartial.html contents=page.videos.leagueplay %}
+{% include partials/videoPartial.html contents=page.videos.leagueplay %}
 

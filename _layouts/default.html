@@ -5,9 +5,21 @@ layout: compress
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% capture stylesheet %}
+    {% if layout.stylesheet %}
+      {{ layout.stylesheet }}
+    {% endif %}
+    {% if page.stylesheet %}
+      {{ page.stylesheet }}
+    {% endif %}
+  {% endcapture %}
+
+  {% assign stylesheet = stylesheet | strip %}
+
+  {% include head.html styles=stylesheet %}
 
   <body>
+    {{ layout.layout.stylesheet }}
     <div class="page-content print-simplify">
       {% include header.html %}
       <div class="wrapper">

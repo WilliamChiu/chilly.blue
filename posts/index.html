@@ -1,55 +1,60 @@
 ---
-layout: page
+layout: default
 title: Posts
 icon: chat
+stylesheet: /css/posts.css
 ---
+<article>
 
-<div class="home">
+  <div class="post-content">
 
-  <h1 class="page-heading">Posts</h1>
+    <h1 class="post-title">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
+    <ul class="post-list">
+     {% for post in paginator.posts %}
 
-      {% capture post-content %}
-      {{ post.content }}
-      {% endcapture %}
+       {% capture post-content %}
+        {{ post.content }}
+        {% endcapture %}
 
-      {% capture word-count %}
-      {{ post-content | strip_html | number_of_words }}
-      {% endcapture %}
+        {% capture word-count %}
+        {{ post-content | strip_html | number_of_words }}
+        {% endcapture %}
 
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post-meta">{{ post.description }}</span>
-        <br>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {% if post.author %}
-         • 
-        <span class="post-meta">
-          {{ post.author }}
-        </span>
-        {% endif %}
-         • 
-        <span class="post-meta">
-          {{ word-count }} words
-        </span>
-      </li>
-    {% endfor %}
-  </ul>
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="post-meta">{{ post.description }}</span>
+          <br>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {% if post.author %}
+           • 
+          <span class="post-meta">
+            {{ post.author }}
+          </span>
+          {% endif %}
+           • 
+          <span class="post-meta">
+            {{ word-count }} words
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <div class="post-list">
-    <span class="post-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</span> <br>
-    <h2>
-    {% if paginator.next_page %}
-        <a class="post-link" href="{{ paginator.next_page_path }}">Next</a>
-    {% endif %}
-    {% if paginator.previous_page %}
-        <a class="post-link" href="{{ paginator.previous_page_path }}">Previous</a>
-    {% endif %}
-    </h2>
+    <div class="post-list">
+      <span class="post-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</span> <br>
+      <h2>
+      {% if paginator.next_page %}
+          <a class="post-link" href="{{ paginator.next_page_path }}">Next</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+          <a class="post-link" href="{{ paginator.previous_page_path }}">Previous</a>
+      {% endif %}
+      </h2>
+    </div>
+
+    <div class="post-list">
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include partials/materialIconPartial.html icon="rss_feed" %}</a>
+    </div>
+
   </div>
-
-  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include materialIconPartial.html icon="rss_feed" %}</a>
-
-</div>
+</article>

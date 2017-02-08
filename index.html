@@ -2,6 +2,7 @@
 title: Home
 layout: default
 icon: home
+stylesheet: /css/center-button.css
 ---
 
 <div class="post">
@@ -16,7 +17,8 @@ In the past, I've worked as a full stack web development intern at [DIDiT Labs](
 Much thanks to Yuka Miyanomae for the awesome drawing!
 {% endcapture %}
 
-{% include chillyblue.svg %}
+{% include partials/imagePartial.html src="/media/chillyblue.svg" style="width: 80%; display: block; margin: auto;" %}
+<br>
 <div class="center-button"><div class="center-button-text">
 {{ text | markdownify }}
 </div></div></div>

@@ -7,7 +7,7 @@ description: In other news, I've become my glasses.
 ---
 In front of the narrow Spectator building, I pressed #11 and, after two rings, heard a disembodied voice go "Yeah. This is Spec."
 
-I said something stupid to the degree of "Uhh, this is a trainee". Then I walked up the 3 flights up stairs to Spectator's Super Bowl LI watch party. Walking into the main congregation space (I have no clue what it is called... projector room?) I saw a table of laptopping Speccies (Spectator people?) working on all sorts of things while waiting for the Super Bowl stream (probably found off reddit) to come up. Recognizing a fellow trainee, I promptly took the space to his right on the couch. In truth, I didn't plan on staying long. My clothes were in the dryer and I thought I'd stop by to show some appreciation for being invited. It was kind of awkward, being a newbie surrounded by a roomful of people hard at work. It was also kind of strange considering how few trainees actually showed up (boy am I a complainer). However, I was already there. As such, I sat around and talked to people who I hoped would become a big part of my Columbia life.
+I said something stupid to the degree of "Uhh, this is a trainee". Then I walked up the 3 flights up stairs to Spectator's Super Bowl LI watch party. Walking into the main congregation space (I have no clue what it is called... projector room?) I saw a table of laptopping Speccies (Spectator people?) working on all sorts of things while waiting for the Super Bowl stream (probably found off Reddit) to come up. Recognizing a fellow trainee, I promptly took the space to his right on the couch. In truth, I didn't plan on staying long. My clothes were in the dryer and I thought I'd stop by to show some appreciation for being invited. It was kind of awkward, being a newbie surrounded by a roomful of people hard at work. It was also kind of strange considering how few trainees actually showed up (boy am I a complainer). However, I was already there. As such, I sat around and talked to people who I hoped would become a big part of my Columbia life.
 
 
 ## Blood, sweat, and time
@@ -15,7 +15,7 @@ In some places, blood and sweat seem to be the emphasis. Some extracurriculars a
 
 Relevant image which I'm not too sure I'm allowed to share.
 
-{% include imagePartial.html src="/media/specimage.png" %}
+{% include partials/imagePartial.html src="/media/specimage.png" %}
 
 ## How I got here
 Just about a week ago, I had nothing to do with Spec(tator).
