@@ -2,7 +2,7 @@
 # Post CSS
 ---
 
-@import "variables";
+@import 'variables';
 
 .post-header {
   margin-bottom: $spacing-unit;
@@ -16,11 +16,11 @@
 }
 
 p a {
-	border-bottom: 1px dashed $neutral;
+  border-bottom: 1px dashed $neutral;
 
-	&.expando {
-	  border: 0;
-	}
+  &.expando {
+    border: 0;
+  }
 }
 
 // Blockquotes

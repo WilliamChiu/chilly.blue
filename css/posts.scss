@@ -2,7 +2,7 @@
 # Posts CSS
 ---
 
-@import "variables";
+@import 'variables';
 
 .post-header {
   margin-bottom: $spacing-unit;
@@ -17,8 +17,8 @@
 
 .post-list {
   list-style: none;
-  padding: 0;
   margin-left: 0;
+  padding: 0;
 
   a {
     color: $dark;
