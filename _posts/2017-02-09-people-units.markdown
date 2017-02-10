@@ -10,7 +10,7 @@ Its a nice dewy and warm February morning. The temperature is hitting a ridiculo
 
 Apparently a handful hours of sleep were not conducive to writing a blog post.
 
-Since then, things have really taken a dive for the worst... or better... depending on how you look at things. Yesterday, there were students relaxing on Low Library steps, just soaking in the Sun.
+Since then, things have really taken a dive for the worst... or better... depending on how you look at things. It was a beautiful shorts-appropriate day, one I would've enjoyed more with more sleep. It was a day nice enough that students moved their convening-spots from the stuffy indoors to the campus-outdoors. Yesterday, there were students relaxing on Low Library steps, just soaking in the Sun.
 
 In fact, I took a nice picture.
 
@@ -20,8 +20,22 @@ In comparison, at the moment a mere 26 hours later, the weather is diving into t
 
 {% include partials/imagePartial.html src="/media/IMG_0786.JPG" %}
 
-I did not write a post for yesterday but I have an excuse. I've become pretty interested in the idea of measuring a lifespan within the context of another person's lifespan. Although its kind of sick and the ethics are wildly clunky, I went through with it and made a sort of sicko thing that you can see here. It's a new tab page chrome extension that quite literally, reminds you how old you are in the context of other famous people. For instance, I'm around .56 Mark Zuckerbergs.
+I did not write a post for yesterday but I have an excuse. I've found a new thing to program up!
 
-[Check out the code here!](https://github.com/WilliamChiu/People-Units)
+I've become pretty interested in the idea of measuring a lifespan within the context of another person's lifespan. Although its kind of sick and the ethics are wildly clunky, I went through with it and made a sort of sicko thing that you can see here.
 
-{% include partials/imagePartial.html src="/media/Screen Shot 2017-02-09 at 11.33.58 PM.png" %}
+{% include partials/imagePartial.html src="/media/peopleunitsscreenie.png" %}
+
+It's a new tab page chrome extension that quite literally, reminds you how old you are in the context of other famous people. For instance, I'm around .56 Mark Zuckerbergs.
+
+Working on this, I had a lot of fun using somewhat learning how to use webpack2. I only heard of it because of my involvment with RES, where they use webpack, and I look forward to actually learning how to use it in conjunction with other stuff. ATM, I've got a meh build script that kind of works, but the "--watch" only tracks changes in the js file... sigh.
+
+Anyways, for anybody that actually knows es6 well... or good js dev practices... and could help me..
+
+[Check out the code here!!](https://github.com/WilliamChiu/People-Units)
+
+In addition, while pushing this, Travis reminded me this...
+
+{% include partials/imagePartial.html src="/media/screenietravismeanie.png" %}
+
+Noted. Thanks Travis.
