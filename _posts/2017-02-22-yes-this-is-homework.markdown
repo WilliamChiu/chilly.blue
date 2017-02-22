@@ -18,7 +18,7 @@ But the thing is, there isn't really any contrast there. One thing I people don'
 
 My English teacher in high school once mentioned that all the trees in Manhattan were male trees, and that the city only planted male trees because they do not produce any street-litter in the form of cones or seeds. Why did she mention this to me? She only told me this because apparently, male trees created pollen, the allergy inducing stuff that caused the both of us seasonal grief. It's the only conversation I've had with somebody about trees in the last couple of years.
 
-I suppose that's kind of weird because there definitely are a couple thousand trees in New York City, 600000 according to http://jillhubley.com/blog/nyctrees
+I suppose that's kind of weird because there definitely are a couple thousand trees in New York City, 600000 according to [this fine post](http://jillhubley.com/blog/nyctrees).
 
 If there are 6 million tax payers in the Big Apple, I practically own 10% of a tree. New York City trees are not just for our pets, they are our pets.
 
