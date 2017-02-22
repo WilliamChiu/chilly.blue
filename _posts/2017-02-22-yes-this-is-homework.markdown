@@ -24,6 +24,6 @@ If there are 6 million tax payers in the Big Apple, I practically own 10% of a t
 
 Much like the eccentric cardigan touting poodles one finds on the Upper West Side, the trees of the city reek of human influence. Most of the trees in the city come from Asia. In fact, only one of the, maybe, dozen most common trees comes from somewhere other than Asia (Europe).
 
--Why is this bad?
+Is this bad? Of course it's bad (convince me). Why is this bad?
 
 I honestly don't think it's bad. I just think people ought to acknowledge their agency in the shaping of nature. It is easy to lose sight of the city. It is massive, a cement jungle. However, people will always point to the remnants of nature in the city as a sign that mankind has not completely subjugated the land. However, the terms of surrender have been drawn out, and they seem to be tilted in man's favor.
