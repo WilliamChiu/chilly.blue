@@ -99,6 +99,10 @@ header,
   color: $dark;
 }
 
+::selection {
+    background-color: $light-highlight;
+}
+
 .wrapper {
   margin: auto;
   max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
