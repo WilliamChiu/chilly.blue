@@ -25,3 +25,4 @@ description: '"Write more posts"'
 - Implement text selection color changes
 - Finish reading Don Quixote
 - Find time to do more work on RES (probably should wait till break)
+- Meeting next Monday @ the Center for Career Education
