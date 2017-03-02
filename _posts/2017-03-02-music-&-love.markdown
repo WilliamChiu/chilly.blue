@@ -21,7 +21,7 @@ Not so secretly, one of my favorite things to do is play quietly.
 Pieces aren't meant to be smashed out.  
 Then again, some would react to my hedonism with disgust.  
 Free spirited tempo and loose interpretations of dynamics.  
-A couple of ignored of shrugged off Italian phrases.  
+A couple of ignored or shrugged off Italian phrases.  
 Sticky sustain pedal.  
 
 And yet, I take just as much pleasure from beating the shit out of that piano.  
