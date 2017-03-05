@@ -1,22 +1,13 @@
 <header class="site-header no-print aside">
 
   <div class="nav-wrapper">
-    <nav class="site-nav" style="float:right">
+    <nav class="site-nav">
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.icon %}
             {% unless my_page.url contains "page" %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% include partials/materialIconPartial.html icon=my_page.icon %}</a>
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% include partials/materialIconPartial.html icon=my_page.icon %}</a><br>
             {% endunless %}
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-    <nav class="site-nav">
-      <div class="trigger">
-        {% for link in site.social_media %}
-          {% if link.icon %}
-          <a class="page-link" href="{{ link.url }}">{% include partials/mdiPartial.html icon=link.icon %}</a>
           {% endif %}
         {% endfor %}
       </div>

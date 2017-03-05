@@ -1,34 +1,37 @@
 <head>
 	<meta charset="utf-8">
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	{% for amp-style in include.amps %}
+		{% if amp-style == "amp-youtube" %}
+		<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+		{% endif %}
+		{% if amp-style == "amp-video" %}
+		<script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+		{% endif %}
+		{% if amp-style == "amp-iframe" %}
+		<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+		{% endif %}
+	{% endfor %}
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width,minimum-scale=1">
 
 	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  	<style type="text/css">
+  	<style amp-custom>
     	{% capture include_to_scssify %}
       		{% include critical.scss %}
+      		{% for stylesheet in include.styles %}
+      			{% include {{stylesheet}} %}
+  			{% endfor %}
     	{% endcapture %}
     	{{ include_to_scssify | scssify }}
   	</style>
 
-  	{% include google-analytics.js %}
-  	{% include hide-assides.js %}
-  	{% include loadCSS.js %}
-	{% include cssrelpreload.js %}
-
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-	<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" onload="this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></noscript>
-	<link rel="preload" href="//cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css" as="style" onload="this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="//cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css"></noscript>
-	<link rel="preload" href="https://fonts.googleapis.com/css?family=Quicksand" as="style" onload="this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"></noscript>
-
-	{% for stylesheet in include.styles %}
-		<link rel="stylesheet" href="{{ stylesheet }}">
-  	{% endfor %}
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
 	{% include favicons.html %}
 	{% seo title=false %}

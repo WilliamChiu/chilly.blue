@@ -15,7 +15,7 @@ In some places, blood and sweat seem to be the emphasis. Some extracurriculars a
 
 Relevant image which I'm not too sure I'm allowed to share.
 
-{% include partials/imagePartial.html src="/media/specimage.png" %}
+{% include partials/imagePartial.html src="/media/specimage.png" width="1468" height="556" %}
 
 ## How I got here
 Just about a week ago, I had nothing to do with Spec(tator).

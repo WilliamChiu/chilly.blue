@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html>
+<html ⚡>
 
   {% capture stylesheet %}
     {% if layout.stylesheet %}
@@ -16,7 +16,9 @@ layout: compress
 
   {% assign stylesheet = stylesheet | strip %}
 
-  {% include head.html styles=stylesheet %}
+  {% assign amp = page.amp %}
+
+  {% include head.html styles=stylesheet amps=amp %}
 
   <body>
     {{ layout.layout.stylesheet }}

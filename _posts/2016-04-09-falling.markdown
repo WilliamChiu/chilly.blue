@@ -14,15 +14,12 @@ I'm really glad to see that Powder Game and its successors are still thriving! H
 
 Anyways, try the following buttons, "r, g, b, c, space". Also left click and right click. For whatever reason, the darn thing freezes the entire page for a good 3 seconds once you click anywhere... anywhere on the page..
 
-<script src="/processing/processing.js" type="text/javascript"></script>
-<canvas id="Falling" class="expando-target" data-processing-sources="/processing/Falling.pde" width="500" height="500"> </canvas>
+... Redacted for the sake of your computer... if you want... check the commit history.
 
 This ended up very bad. I guess it serves as an homage to the beautifully done Powder Game in a "look at how slow this is in comparison" way.
 
-Either way, code below.
+Either way, (there was an excuse here before).
 
 ## Game
 
 This was done in processing.js by the way. If I ever try to make a powder simulator, I think I'll user p5.js. I should also probably tackle "particles" in some other way.
-
-[Code here](http://chilly.blue/processing/Falling.pde).

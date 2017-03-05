@@ -1,5 +1,5 @@
-<video width="{{ include.contents.options.width | default: "100%" }}" height="{{ include.contents.options.width | default: "100%" }}" {{ include.contents.options.attributes }}>
+<amp-video width="{{include.contents.options.width}}" height="{{include.contents.options.height}}" {{include.contents.options.attributes}} layout="responsive">
 	{% for content in include.contents.sources %}
-		<source src="{{ content.src }}" type="{{ content.type }}">
+		<source src="{{content.src}}" type="{{content.type}}">
   	{% endfor %}
-</video> 
+</amp-video> 

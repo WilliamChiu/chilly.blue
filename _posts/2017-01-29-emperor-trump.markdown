@@ -8,11 +8,16 @@ videos:
   leagueplay:
     options:
       attributes: controls loop
+      width: 1280px
+      height: 720px
     sources:
     - src: /media/7-2_NA1-2411469165_03.webm
       type: video/webm
     - src: /media/7-2_NA1-2411469165_03.mp4
       type: video/mp4
+amp: 
+- amp-youtube
+- amp-video
 ---
 
 Emperor Trump has done [a lot](http://www.bbc.com/news/world-us-canada-38768272) in the past week. This BBC article really is trying hard to get over that [Trump outrage dilution](http://blog.dilbert.com/post/156399716951/outrage-dilution). However, its getting to the point where people can't list out all the crap he's done that they disagree with. What really kills me is the last line of that BBC article.
@@ -29,7 +34,7 @@ In other news, I'm still in the process of figuring out what to do with this sit
 
 Also, my roommate has discovered Phantom of the Opera and has been singing it under his breath for the entire day. I hope I can convince him Michael Crawford is the most phantom-y phantom (Ramin Karimloo is good too, but not quite as creepy). However, some credit has to be given to Steve Harley for his glam-rock interpretation...
 
-{% include partials/youtubePartial.html id="QHYEKqF7x-E" start="65" %}
+{% include partials/youtubePartial.html params="data-videoid=\"QHYEKqF7x-E\" data-param-start=\"65\"" %}
 
 Last thing. Heres's a league clip.
 

@@ -14,4 +14,4 @@ The chat itself is currently hosted for free, albeit with credit card identifica
 
 **Update:** So I ended up switching to OpenShift, which is where the chat is currently hosted. I made this decision because Microsoft Azure's free trial lasts for a year and the pricing calculator is confusing. On the flipside, OpenShift lasts for the foreseeable future and doesn't have my credit card.
 
-<iframe src="https://chat.chilly.blue" style="width: 100%; min-height: 300px; border:none;"></iframe>
+<https://chat.chilly.blue>

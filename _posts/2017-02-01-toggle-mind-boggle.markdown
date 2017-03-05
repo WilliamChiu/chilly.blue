@@ -46,7 +46,7 @@ Let's talk about Reddit Enchancement Suite's (RES for short) toggles. RES uses t
 
 However, when translating RES, they found out "On" and "Off" weren't such short, relatively evenly-spaced words in languages such as Spanish. 
 
-{% include partials/imagePartial.html src="https://cloud.githubusercontent.com/assets/455632/22131517/d504fb46-de68-11e6-9883-d0f3d0b4ac40.png" %}
+{% include partials/imagePartial.html src="/media/toggleimage.png" width="736px" height="558px" %}
 
 The initial thought was that we could just replace On/Off with ✓/✕. However, ✓/✕ are not universal symbols! ✕ could be construed as "On". In some other cultures "o" would signify something as being selected. In those cultures, ✓ would replace the ✕ as being wrong.
 
@@ -56,6 +56,6 @@ As such, the answer for the problem was there for all the world to see in [Windo
 
 And this was RES' new toggle.
 
-{% include partials/imagePartial.html src="/media/RESToggles.png" %}
+{% include partials/imagePartial.html src="/media/RESToggles.png" width="888px" height="380px" %}
 
 

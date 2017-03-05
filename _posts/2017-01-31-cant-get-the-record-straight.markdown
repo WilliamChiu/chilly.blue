@@ -14,7 +14,7 @@ The weekend is over and the campus is back in action. Student Body groans at sch
 
 Walking out of a Chinese test feeling the effects of coffee on my stomach, I saw a sight that almost made me forget my poor Chinese (thank goodness, I can't *afford* to forget any more). What I saw was a hundred, maybe two hundred, students stationed on Low Plaza and Low Steps, Alma Mater presiding over the congregation.
 
-{% include partials/imagePartial.html src="/media/columbiaprotest1.jpg" %}
+{% include partials/imagePartial.html src="/media/columbiaprotest1.jpg" width="3264px" height="2448px" %}
 
 What I like is that this campus moves. We are protesting something that should probably be protested. What Trump is doing is probably unethical. It probably degrades the quality of human rights. I'm no expert on this, but when people joke about the United States being the land of the free and the home of the brave, the United States' status as the land of the free and the home of the brave is being questioned.
 
