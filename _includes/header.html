@@ -6,7 +6,7 @@
         {% for my_page in site.pages %}
           {% if my_page.icon %}
             {% unless my_page.url contains "page" %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% include partials/materialIconPartial.html icon=my_page.icon %}</a><br>
+            <a class="page-link" href="{{ my_page.url }}">{% include partials/materialIconPartial.html icon=my_page.icon %}</a><br>
             {% endunless %}
           {% endif %}
         {% endfor %}
