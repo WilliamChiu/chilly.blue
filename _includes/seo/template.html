@@ -90,11 +90,13 @@
 {% endif %}
 
 {% if page.image %}
-  {% assign seo_page_image = page.image %}
-  {% unless seo_site_image.url contains "://" %}
-    {% assign seo_site_image.url = seo_site_image.url | absolute_url %}
+  {% assign seo_page_image = true %}
+  {% assign seo_page_image_url = page.image.url | escape %}
+  {% unless seo_page_image_url contains "://" %}
+    {% assign seo_page_image_url = seo_page_image_url | absolute_url %}
   {% endunless %}
-  {% assign seo_page_image = seo_page_image | escape %}
+  {% assign seo_page_image_width = page.image.width | escape %}
+  {% assign seo_page_image_height = page.image.height | escape %}
 {% endif %}
 
 {% if seo_title %}
@@ -124,7 +126,7 @@
 {% endif %}
 
 {% if seo_page_image %}
-<meta property="og:image" content="{{ seo_page_image.url }}" />
+<meta property="og:image" content="{{ seo_page_image_url }}" />
   {% if page.image.height %}
     <meta property="og:image:height" content="{{ page.image.height }}" />
   {% endif %}
@@ -212,7 +214,12 @@
 {% endif %}
 
 {% if seo_page_image %}
-    "image": {{ seo_page_image | jsonify }},
+    "image": {
+        "@type": "ImageObject",
+        "url": {{ seo_page_image_url | jsonify }},
+        "width": {{ seo_page_image_width | jsonify }},
+        "height": {{ seo_page_image_height | jsonify }}
+    }
 {% endif %}
 
 {% if page.date %}
