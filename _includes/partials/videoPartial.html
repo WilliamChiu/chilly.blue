@@ -1,5 +1,5 @@
 <amp-video width="{{include.contents.options.width}}" height="{{include.contents.options.height}}" {{include.contents.options.attributes}} layout="responsive">
 	{% for content in include.contents.sources %}
-		<source src="{{content.src}}" type="{{content.type}}">
+		<source src="{{ content.src | prepend: site.baseurl | prepend: site.url | xml_escape }}" type="{{content.type}}">
   	{% endfor %}
 </amp-video> 
