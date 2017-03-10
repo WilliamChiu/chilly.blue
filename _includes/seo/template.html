@@ -91,6 +91,9 @@
 
 {% if page.image %}
   {% assign seo_page_image = page.image %}
+  {% unless seo_site_image.url contains "://" %}
+    {% assign seo_site_image.url = seo_site_image.url | absolute_url %}
+  {% endunless %}
   {% assign seo_page_image = seo_page_image | escape %}
 {% endif %}
 
