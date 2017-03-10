@@ -57,7 +57,7 @@ defaults:
     values:
       image: 
           url: /favicons/default.png
-          height: 310px
-          width: 310px
+          height: 400px
+          width: 1000px
 
 
