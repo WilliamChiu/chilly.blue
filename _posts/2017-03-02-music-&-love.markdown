@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Music &amp; Love"
+title:  "Music & Love"
 author: billychiu
 date:   2017-03-2
 categories: music piano
