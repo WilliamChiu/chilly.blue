@@ -11,8 +11,8 @@ email: william@chilly.blue
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chilly.blue" # the base hostname & protocol for your site
 github_username:  williamchiu
-twitter_username: aChillyBlue
 description: A personal blog of Billy Chiu.
+logo: "/favicons/mstile-310x310.png"
 license: Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
 
 permalink: pretty
@@ -22,7 +22,6 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-paginate
 
 paginate: 5
@@ -50,9 +49,15 @@ social_media:
   - icon: email
     url: mailto:william@chilly.blue
 
+
+
 defaults:
   - scope:
       path: ""
     values:
-      image: /favicons/mstile-310x310.png
+      image: 
+          "@type": "ImageObject"
+          url: /favicons/mstile-310x310.png
+          height: 310px
+          width: 310px
 

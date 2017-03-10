@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Work Still In Progress"
+author: billychiu
 date:   2017-02-10
 categories: sick happy sad glad
 description: New in name but still roughly the same.

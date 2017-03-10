@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "QuickSort Images"
+author: billychiu
 date:   2016-04-19
 categories: quicksort p5.js
 description: Stay around for my sleepsort visualization!

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Halfway Into Week 7"
+author: billychiu
 date:   2017-02-28
 categories: weekly
 description: '"Write more posts"'

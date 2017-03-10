@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Yes, This is Homework"
+author: billychiu
 date:   2017-02-22
 categories: columbia homework 
 description: This is what I get for getting sick twice.

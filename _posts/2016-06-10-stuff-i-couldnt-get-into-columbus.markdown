@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Work in Progress"
+author: billychiu
 date:   2016-06-10
 categories: poetry
 description: A small whiff of angsty teenager.

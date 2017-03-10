@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Toggle Mind Boggle"
+author: billychiu
 date:   2017-02-01
 categories: toggle design RES
 description: I guess the main take away is that design is hard.

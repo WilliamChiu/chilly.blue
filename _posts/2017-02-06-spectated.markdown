@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Spectated"
+author: billychiu
 date:   2017-02-06
 categories: columbia spectator update
 description: In other news, I've become my glasses.

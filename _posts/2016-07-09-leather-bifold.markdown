@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Leather Bifold"
+author: billychiu
 date:   2016-07-09
 categories: leather bifold wallet laser cutting
 description: I'm giddy showing this off to people.

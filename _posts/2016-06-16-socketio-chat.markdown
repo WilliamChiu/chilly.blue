@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Fleshed Out Socket.io Demo"
+author: billychiu
 date:   2016-06-16
 categories: socketio demo chat
 description: Why are we not funding this?

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "People Units"
+author: billychiu
 date:   2017-02-09
 categories: chrome extension peopleunits mother nature
 description: Using other people as means to an end!

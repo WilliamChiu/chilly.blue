@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Candle"
+author: billychiu
 date:   2017-02-05
 categories: columbia devfest update
 description: What raging fire shall flood the soul?

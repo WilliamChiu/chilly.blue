@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Rock n Roll"
+author: billychiu
 date:   2017-01-31
 categories: short columbia help
 description: David Bow-be the first to say this is bad.

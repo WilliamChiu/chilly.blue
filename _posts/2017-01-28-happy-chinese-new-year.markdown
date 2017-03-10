@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "新年快樂"
+author: billychiu
 date:   2017-01-28
 categories: short
 description: 我愛王朋。我愛李友。

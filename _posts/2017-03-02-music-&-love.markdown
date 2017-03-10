@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Music & Love"
+author: billychiu
 date:   2017-03-2
-categories: music piano sadness
+categories: music piano
 description: One of these days I'll find it
 ---
 
