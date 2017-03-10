@@ -21,8 +21,8 @@ permalink: pretty
 markdown: kramdown
 
 gems:
-  - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 5
 
@@ -56,8 +56,8 @@ defaults:
       path: ""
     values:
       image: 
-          "@type": "ImageObject"
           url: /favicons/mstile-310x310.png
           height: 310px
           width: 310px
+
 
