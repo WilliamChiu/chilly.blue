@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chilly.blue" # the base hostname & protocol for your site
 github_username:  williamchiu
 description: A personal blog of Billy Chiu.
-logo: "/favicons/mstile-310x310.png"
+logo: "/favicons/default.png"
 license: Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
 
 permalink: /:categories/:year/:month/:day/:slug/
@@ -56,7 +56,7 @@ defaults:
       path: ""
     values:
       image: 
-          url: /favicons/mstile-310x310.png
+          url: /favicons/default.png
           height: 310px
           width: 310px
 
