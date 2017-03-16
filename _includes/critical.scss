@@ -86,7 +86,7 @@ header,
   background-color: $light;
   border-radius: 25px;
   color: $dark;
-  margin: 0 auto;
+  margin: $spacing-unit auto;
   max-width: calc(#{$content-width} + (#{$spacing-unit} * 4));
 }
 
