@@ -18,6 +18,7 @@ videos:
       type: video/mp4
 amp:
 - amp-video
+image: /favicons/default.png
 ---
 
 It's been a long time since I've last written anything down here. The last time I wrote something, it was still nice and sunny outside. I was still in my internship at DIDiT and was still working weekends at the Bubble Tea Shop on 105th st. (Shiny Tea). I was still a high school student in the sense that college hadn't started yet so nobody was calling me a freshman, and by freshman I mean first year, at that point. My left eye saw things with more acuity back then. My teeth were probably whiter back then. I lived with my parents and didn't have to worry about laundry or food or dishes too much.

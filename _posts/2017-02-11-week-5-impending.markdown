@@ -5,6 +5,7 @@ author: billychiu
 date:   2017-02-11
 categories: columbia homework
 description: This is what I get for taking a rainy day.
+image: /favicons/default.png
 ---
 
 I swear I totally wrote this post on Saturday February 12, 2017.

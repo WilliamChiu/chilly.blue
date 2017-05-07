@@ -23,6 +23,7 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 paginate: 5
 
@@ -55,9 +56,6 @@ defaults:
   - scope:
       path: ""
     values:
-      image: 
-          url: /favicons/default.png
-          height: 400px
-          width: 1000px
+      image: /favicons/default.png
 
 

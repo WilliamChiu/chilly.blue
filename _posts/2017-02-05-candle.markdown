@@ -5,6 +5,7 @@ author: billychiu
 date:   2017-02-05
 categories: columbia devfest update
 description: What raging fire shall flood the soul?
+image: /favicons/default.png
 ---
 Is the teetering tottering scale model of life, with it's ups and its downs, an oversimplification of what we really go through? People seem very content talking about their lives in the context of days and nights, hours awake and hours asleep. We seem hardwired into believing that highs are followed by lows and lows are followed by highs.
 

@@ -5,6 +5,7 @@ author: billychiu
 date:   2017-02-01
 categories: toggle design RES
 description: I guess the main take away is that design is hard.
+image: /favicons/default.png
 ---
 
 Apple released earnings, and they're not half bad!

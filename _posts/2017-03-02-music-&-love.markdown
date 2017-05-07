@@ -5,6 +5,7 @@ author: billychiu
 date:   2017-03-2
 categories: music piano
 description: One of these days I'll find it
+image: /favicons/default.png
 ---
 
 When I need a breath... or I need something to get my adrenaline pumping before class... or I need to redirect my extra heart beats somewhere else, I usually find myself in the Wallach lounge on the piano bench.  

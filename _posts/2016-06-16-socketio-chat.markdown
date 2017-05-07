@@ -5,6 +5,7 @@ author: billychiu
 date:   2016-06-16
 categories: socketio demo chat
 description: Why are we not funding this?
+image: /favicons/default.png
 ---
 
 This is my first time testing out Socket.io and it is pretty amazing! One of the demos involves making a [chat](http://socket.io/get-started/chat/), which happens to be one of the checkpoints on a highschool app I'm still working on... 

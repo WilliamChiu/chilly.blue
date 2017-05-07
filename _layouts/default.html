@@ -25,7 +25,7 @@ layout: compress
     <div class="page-content print-simplify">
       {% include header.html %}
       <div class="wrapper">
-        {{ content }}
+        {{ content | replace: 'WRAPPER_END', '</div></div>' | replace: 'WRAPPER_START', '<div class="wrapper"><div class="post-content">' }}
       </div>
     </div>
 

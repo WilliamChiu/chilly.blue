@@ -5,6 +5,7 @@ author: billychiu
 date:   2016-06-10
 categories: poetry
 description: A small whiff of angsty teenager.
+image: /favicons/default.png
 ---
 
 Two Two Eight Two Four Five.

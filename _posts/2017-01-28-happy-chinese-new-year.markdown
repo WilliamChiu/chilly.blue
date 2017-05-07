@@ -5,6 +5,7 @@ author: billychiu
 date:   2017-01-28
 categories: short
 description: 我愛王朋。我愛李友。
+image: /favicons/default.png
 ---
 
 Happy Chinese New Year!

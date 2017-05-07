@@ -5,6 +5,7 @@ author: billychiu
 date:   2017-02-10
 categories: sick happy sad glad
 description: New in name but still roughly the same.
+image: /favicons/default.png
 ---
 
 Woke up today all sore  
