@@ -15,7 +15,7 @@ image:
 
 > In the past, I've given '[columbia buy sell memes](https://www.facebook.com/groups/1006815496091821/)' a lot of shit for normalizing bad student life choices. In this assignment, which I wrote... like... 3 days ago for University Writing, I complained about another aspect of cbsm I don't like: people from outside the community that butt in with their own agendas.
 > 
-> As some context, a few weeks ago, [Martin Shkreli](https://en.wikipedia.org/wiki/MartinShkreli) (click that), reared his head over at cbsm. [Relevant bwog article](http://bwog.com/2017/04/10/martin-shkreli-joins-columbia-buy-sell-memes/).
+> As some context, a few weeks ago, [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli) (click that), reared his head over at cbsm. [Relevant bwog article](http://bwog.com/2017/04/10/martin-shkreli-joins-columbia-buy-sell-memes/).
 > 
 > More recently, sweetgreen (that salad place), held a meme competition on cbsm.
 
