@@ -11,13 +11,17 @@ image:
   width: '1000'
 ---
 
+{% include partials/imagePartial.html src="/media/cbsmbanner.jpg" width="1280" height="720" %}
+
 > In the past, I've given '[columbia buy sell memes](https://www.facebook.com/groups/1006815496091821/)' a lot of shit for normalizing bad student life choices. In this assignment, which I wrote... like... 3 days ago for University Writing, I complained about another aspect of cbsm I don't like: people from outside the community that butt in with their own agendas.
 > 
-> As some context, a few weeks ago, [Martin Shkreli](https://en.wikipedia.org/wiki/MartinShkreli) (click that), reared his head over at cbsm.
+> As some context, a few weeks ago, [Martin Shkreli](https://en.wikipedia.org/wiki/MartinShkreli) (click that), reared his head over at cbsm. [Relevant bwog article](http://bwog.com/2017/04/10/martin-shkreli-joins-columbia-buy-sell-memes/).
 > 
 > More recently, sweetgreen (that salad place), held a meme competition on cbsm.
-> 
-> With that, here we go.
+
+{% include partials/imagePartial.html src="/media/sweetgreenshill.jpg" width="1024" height="768" %}
+
+## With that, here we go.
 
 With almost 30,000 members, it is hard to believe the beloved Facebook group, 'Columbia Buy Sell Memes', stylized as 'columbia buy sell memes', is only one semester old. While people down in Williamsburg have been busy creating poke-burritos and rainbow bagels, our resident 'Morningside Memers' have given the classic 'meme' (low quality image + scattered lines of text) a price. Equipped with this new and refreshing take on a classic narrative technique, resident 'meme lords' have successfully laid bare the image of a student body precariously and perpetually see-sawing between procrastination and tits-up hedonism. However, while 'columbia buy sell memes' has enjoyed unprecedented growth alongside fellow 'university meme pages' , it is clear an impending bubble could see our beloved 'memexchange' falling to the shitters.
 
