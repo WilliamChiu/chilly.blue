@@ -5,7 +5,10 @@ author: billychiu
 date:   2017-02-07
 categories: blog health update
 description: Do programmers make bad parents?
-image: /favicons/default.png
+image:
+  path: /favicons/default.png
+  height: 400
+  width: 1000
 ---
 
 And here is my post about health. Oh boy, do I feel deceptive right now... to you... dear shadows on the wall. When I said health, I mostly meant the health of this site. If you didn't know, this site is hosted by Github, thhe files are kept on Github, and served as part of Github Pages. The only reason I have a .blue domain is that I bought it off Namecheap. Over the years I've slowly added features to this blog, some of which have remained to this very day. Originally, and you could see this if you roll back the clock long enough, this blog was the fork, a clone of, a Jekyll Now blog. 

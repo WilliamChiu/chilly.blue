@@ -19,7 +19,10 @@ videos:
 amp: 
 - amp-youtube
 - amp-video
-image: /favicons/default.png
+image:
+  path: /favicons/default.png
+  height: 400
+  width: 1000
 ---
 
 Emperor Trump has done [a lot](http://www.bbc.com/news/world-us-canada-38768272) in the past week. This BBC article really is trying hard to get over that [Trump outrage dilution](http://blog.dilbert.com/post/156399716951/outrage-dilution). However, its getting to the point where people can't list out all the crap he's done that they disagree with. What really kills me is the last line of that BBC article.

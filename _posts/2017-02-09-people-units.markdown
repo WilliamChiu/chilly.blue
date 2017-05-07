@@ -5,7 +5,10 @@ author: billychiu
 date:   2017-02-09
 categories: chrome extension peopleunits mother nature
 description: Using other people as means to an end!
-image: /favicons/default.png
+image:
+  path: /favicons/default.png
+  height: 400
+  width: 1000
 ---
 
 Its a nice dewy and warm February morning. The temperature is hitting a ridiculously Spring-like 60 degrees, and I'd reckon its a nice day if not for the overall moistness of the campus. I had a good handful of hours of sleep this morning and...

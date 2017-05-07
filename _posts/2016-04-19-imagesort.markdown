@@ -7,7 +7,10 @@ categories: quicksort p5.js
 description: Stay around for my sleepsort visualization!
 amp:
 - amp-iframe
-image: /favicons/default.png
+image:
+  path: /favicons/default.png
+  height: 400
+  width: 1000
 ---
 
 Drag an image into the box below to sort the pixels by brightness using an iterative version of the quicksort algorithm. Edit: and by iterative, I mean I replaced the stack with an array :p  

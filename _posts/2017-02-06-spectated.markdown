@@ -5,7 +5,10 @@ author: billychiu
 date:   2017-02-06
 categories: columbia spectator update
 description: In other news, I've become my glasses.
-image: /favicons/default.png
+image:
+  path: /favicons/default.png
+  height: 400
+  width: 1000
 ---
 In front of the narrow Spectator building, I pressed #11 and, after two rings, heard a disembodied voice go "Yeah. This is Spec."
 
