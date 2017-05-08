@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/chillyblue
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chilly.blue
+  * I am chillyblue (https://keybase.io/chillyblue) on keybase.
+  * I have a public key with fingerprint A801 2A53 01B4 D068 F071  1850 C86C FCC7 C491 5D56
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014dd4c6baa79369099908b37a1dcbc4fba6b5a0b6030ab67764f798edbe824d7a0a",
+            "fingerprint": "a8012a5301b4d068f0711850c86cfcc7c4915d56",
+            "host": "keybase.io",
+            "key_id": "c86cfcc7c4915d56",
+            "kid": "01014dd4c6baa79369099908b37a1dcbc4fba6b5a0b6030ab67764f798edbe824d7a0a",
+            "uid": "4deb72f9a6ea2e427f7e3b700b9a6219",
+            "username": "chillyblue"
+        },
+        "service": {
+            "hostname": "chilly.blue",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494228870,
+    "expire_in": 157680000,
+    "prev": "0febb0b7f0b8dffea2aec6c18090a181051ba3414273c074defb661a8b5c098d",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJbSBRRGN41L2lallToSzoaGJqcM7czs0EQhQ9BvsnmBbZzZs7o4Lqz
+7Y5rq6VJIRKZPVhZ9hJU1FM+ZGElmAnhJexCRCVaFBaYqZV2UagzUg9Bj52Xw/nP
+933/9/38AykrXEnupnXdF/MOhsvcw3c7alwlqZua6zli6VHOU89V0eWL+nUatn1V
+ps55OAABFHVd1GSCMVIFWQWqqgKFCAhDXSOaaBAsEwkDIgMBYCIjJIsGUhWqE6rw
+oo4wwFw+Z5iBChoKhsyAzWSxAiCPJQFAIupAVgyAIFQkoCmyZmga0kQVSrokM2Kl
+FXYYzBzBYVpgWqzGHr5le//A/2ffNctyok4J4g0VyxTzVOSRgahAEACElXioOsAw
+DQVwNXVcVZp+f5T4ayh3KJ9j9YipUWe0Tpa/MAXLoHwuGLJsS7P87KPStoNhj0O0
+o0EHWUuJ77eGj5gBnQ2SMSI0FDatAOeBDKnZpiMKRVXkeUVBIJ+jB4JmiPpMByEh
+WQHsOH1oxJmOQQkBBBmAKLphsEyYarIGFaACDBUIJEiwIEIWVNAAYukNIssQK0TS
+gKronJNqf8DiPAKziSuYZNisCGC7JsQi9/eVx7rcSa74uBhnwVxJial/1q7/RsJS
+cpBsiyfZC4NbTx3N6e46MlE42tlWVrbqwv2hCc9UbM/D4lpPa0Hil2O5e+iz2Y7c
+J3sfGeXtyXfiWjLbSqO8p6XxeMrXmJ3XsgYmI6hZqyu9ZfSWNPwobj6xsrG14WpX
++tAZ29e52Jd7uS3hwfi+S1blYePdcNnG8yOu1OfqmrOrm15PX0ka/yZ39rSm833+
+mxMp1T4v+fR+EX6YG8seGH/cPt9ZJGTdG3n5yn17rmjz9g1PBS42u2ho/npO+jlv
+WtrPuMLP0aXZ01VpeVMZM6lp0bVvxdHBBe/YyfIXvW5FzYhG6rZM7oh3TcdV7Pby
+mVnr3+wq/A67Z3xe/aP0C2kKPfk=
+=ajGd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chillyblue
+
+==================================================================
