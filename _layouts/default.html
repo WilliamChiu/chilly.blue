@@ -5,7 +5,16 @@ layout: compress
 <!DOCTYPE html>
 <html amp>
 
-  {% assign stylesheet = layout.stylesheet | strip %}
+  {% capture stylesheet %}
+    {% if layout.stylesheet %}
+      {{ layout.stylesheet }}
+    {% endif %}
+    {% if page.stylesheet %}
+      {{ page.stylesheet }}
+    {% endif %}
+  {% endcapture %}
+
+  {% assign stylesheet = stylesheet | strip %}
 
   {% assign amp = page.amp %}
 
