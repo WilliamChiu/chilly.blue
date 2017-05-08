@@ -33,3 +33,26 @@ blockquote {
   color: $neutral;
   font-size: $small-font-size;
 }
+
+.center-button {
+  background-color: $dark;
+  border-radius: 25px;
+  color: $light;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 15px;
+
+  ::selection {
+    background-color: $dark-highlight;
+  }
+
+  a {
+    color: $light;
+    text-decoration: underline;
+
+    &:hover {
+      color: $light;
+      text-decoration: none;
+    }
+  }
+}
