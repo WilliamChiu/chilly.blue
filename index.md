@@ -8,6 +8,7 @@ icon: home
 ---
 
 {% include partials/imagePartial.html src="/media/chillyblue.svg" width="800px" height="650px" %}
+<br>
 <div class="center-button">
 <div class="center-button-text" markdown="1">
 # Hi, my name is Billy Chiu.

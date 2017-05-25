@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: post
 title: Posts
 icon: chat
-stylesheet: posts.scss
 ---
 <article>
 
   <div class="post-content">
 
-    <h1 class="post-title">Posts</h1>
-
-    <ul class="post-list">
+    <div>
      {% for post in paginator.posts %}
 
        {% capture post-content %}
@@ -21,33 +18,38 @@ stylesheet: posts.scss
         {{ post-content | strip_html | number_of_words }}
         {% endcapture %}
 
-        <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>
           <span class="post-meta">{{ post.description }}</span>
           <br>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {% if post.date %}
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> • 
+          {% endif %}
           {% if post.author %}
-           • 
           <span class="post-meta">
-            {{ post.author }}
+            {{ post.author }} • 
           </span>
           {% endif %}
-           • 
+          {% if word-count %}
           <span class="post-meta">
             {{ word-count }} words
           </span>
-        </li>
+          {% endif %}
+        </p>
+
       {% endfor %}
-    </ul>
+    </div>
 
     <div class="post-list">
       <span class="post-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</span> <br>
       <h2>
       {% if paginator.next_page %}
-          <a class="post-link" href="{{ paginator.next_page_path }}">Next</a>
+          <a href="{{ paginator.next_page_path }}">Next</a>
       {% endif %}
       {% if paginator.previous_page %}
-          <a class="post-link" href="{{ paginator.previous_page_path }}">Previous</a>
+          <a href="{{ paginator.previous_page_path }}">Previous</a>
       {% endif %}
       </h2>
     </div>

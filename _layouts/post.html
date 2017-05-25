@@ -18,16 +18,18 @@ stylesheet: post.scss
         <span>{{ page.description }}</span>
     </div>
     <div>
+        {% if page.date %}
     	<span>
-    		{{ page.date | date: "%b %-d, %Y" }}
+    	   {{ page.date | date: "%b %-d, %Y" }} • 
     	</span>
+        {% endif %}
     	{% if page.author %}
     	<span>
-    	   • {{ page.author }}
+    	   {{ page.author }} • 
     	</span>
     	{% endif %}
     	<span>
-    		 • {{ word-count }} words
+    	   {{ word-count }} words
     	</span>
     </div>
 </div>

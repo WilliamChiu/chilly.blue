@@ -11,7 +11,7 @@ image:
   width: '1000'
 ---
 
-{% include partials/imagePartial.html src="/media/cbsmbanner.jpg" width="1280" height="720" %}
+{% include partials/imagePartial.html src="/media/cbsmbanner.jpg" width="1280" height="720" widthcap="medium-amp-content" %}
 
 > In the past, I've given '[columbia buy sell memes](https://www.facebook.com/groups/1006815496091821/)' a lot of shit for normalizing bad student life choices. In this assignment, which I wrote... like... 3 days ago for University Writing, I complained about another aspect of cbsm I don't like: people from outside the community that butt in with their own agendas.
 > 
@@ -19,7 +19,7 @@ image:
 > 
 > More recently, sweetgreen (that salad place), held a meme competition on cbsm.
 
-{% include partials/imagePartial.html src="/media/sweetgreenshill.jpg" width="1024" height="768" %}
+{% include partials/imagePartial.html src="/media/sweetgreenshill.jpg" width="1024" height="768" widthcap="medium-amp-content" %}
 
 ## With that, here we go.
 
