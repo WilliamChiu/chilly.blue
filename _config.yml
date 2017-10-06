@@ -20,7 +20,7 @@ permalink: /:categories/:year/:month/:day/:slug/
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
