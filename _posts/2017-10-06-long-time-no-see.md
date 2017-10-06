@@ -9,6 +9,8 @@ image:
   path: "/favicons/default.png"
   height: '400'
   width: '1000'
+amp: 
+- amp-youtube
 ---
 
 Hey! It's definitely been a while since I last posted. To be honest, I don't feel particularly compelled to post anything - so I suppose this is just posting for the sake of posting. Perhaps if I do it long enough, it'll develop into a habit and I'll get into the swing of things again.
@@ -51,7 +53,12 @@ Weekends we had activities planned for us. A lot of them were pretty touristy - 
 
 Besides that, I found myself in the hospital three times due to food allergies. Speaking of food. Extraordinary. Food in China, minus the food that got be all messed up, was delicious and eye opening.
 
-So. I realize that was rushed. Next time, I'll pick off from hospital visits + food.  
+So. I realize that was rushed. It's super late. 4:22AM. TSM just beat FW, what a time to be alive. Next time, I'll pick off from hospital visits + food.  
 Thanks for reading!
 
 Billy
+
+{% include partials/youtubePartial.html params="data-videoid=\"kv5wNdLEfcM\"" %}
+
+Bear with me, this is amazing.
+
