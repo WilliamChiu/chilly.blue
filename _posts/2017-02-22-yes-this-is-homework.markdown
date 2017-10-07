@@ -5,10 +5,6 @@ author: billychiu
 date:   2017-02-22
 categories: columbia homework 
 description: This is what I get for getting sick twice.
-image:
-  path: /favicons/default.png
-  height: 400
-  width: 1000
 ---
 
 > Choose the exhibit you’d like to write about. Write a few paragraphs in which you begin to explore the interpretive problems that your exhibit raises. Think about how you might apply the keywords you have identified from the essays of this progression to your exhibit. How might the application of these keywords and concepts problematize your exhibit?

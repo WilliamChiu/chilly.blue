@@ -5,10 +5,6 @@ author: billychiu
 date:   2017-01-31
 categories: columbia protests trump
 description: Not when that's what we're complaining about.
-image:
-  path: /favicons/default.png
-  height: 400
-  width: 1000
 ---
 
 <blockquote>

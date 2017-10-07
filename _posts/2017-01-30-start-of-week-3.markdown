@@ -5,10 +5,6 @@ author: billychiu
 date:   2017-01-30
 categories: short columbia help
 description: The student body perpetually gazes outward.
-image:
-  path: /favicons/default.png
-  height: 400
-  width: 1000
 ---
 
 HELP.

@@ -5,10 +5,6 @@ author: billychiu
 date: '2017-05-07 04:28:23'
 categories: memes shills
 description: sweetgreen memes are bad no matter how you put it
-image:
-  path: "/favicons/default.png"
-  height: '400'
-  width: '1000'
 ---
 
 {% include partials/imagePartial.html src="/media/cbsmbanner.jpg" width="1280" height="720" widthcap="medium-amp-content" %}

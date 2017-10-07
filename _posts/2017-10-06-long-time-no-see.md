@@ -5,10 +5,6 @@ author: billychiu
 date: '2017-10-06 02:42:00'
 categories: staying alive
 description: It's been a while but I'm back
-image:
-  path: "/favicons/default.png"
-  height: '400'
-  width: '1000'
 amp: 
 - amp-youtube
 ---

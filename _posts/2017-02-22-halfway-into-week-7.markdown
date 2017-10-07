@@ -5,10 +5,6 @@ author: billychiu
 date:   2017-02-28
 categories: weekly
 description: '"Write more posts"'
-image:
-  path: /favicons/default.png
-  height: 400
-  width: 1000
 ---
 
 - Rewrite Lit Hum Essay (Due March 10 w/ some flexibility)

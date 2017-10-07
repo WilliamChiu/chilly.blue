@@ -5,10 +5,6 @@ author: billychiu
 date:   2016-07-09
 categories: leather bifold wallet laser cutting
 description: I'm giddy showing this off to people.
-image:
-  path: /favicons/default.png
-  height: 400
-  width: 1000
 ---
 
 Imagine you have a a5-sized sheet of 2-3 oz veg-tan leather and a giant laser cutter just lying around somewhere waiting to be used.
