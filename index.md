@@ -1,25 +1,24 @@
 ---
-title: Welcome to chilly.blue
+title: Hi! My name is Billy Chiu
 layout: post
 author: billychiu
-date: '2017-05-07 04:28:23'
-description: A blog/portfolio/web-dev-experiment
+date: '2017-12-20 04:28:23'
+description: Welcome to chilly.blue
 icon: home
 ---
 
-{% include partials/imagePartial.html src="/media/chillyblue.svg" width="800px" height="650px" %}
-<br>
-<div class="center-button">
-<div class="center-button-text" markdown="1">
-# Hi, my name is Billy Chiu.
+{% include partials/imagePartial.html src="/media/headshotbanner.png" width="5457" height="1959" %}
 
-I'm a Columbia University student who's probably gonna major in computer science and economics. On the side I'm an actor, a pianist, and a wannabe singer.
+I am a Columbia University sophomore majoring in Computer Science as well as current Head of Product of the Columbia Daily Spectator.
 
-In the past, I've worked as a full stack web development intern at [DIDiT Labs](http://diditlabs.com/) and an investment/webmaster intern at [Rebellion Research](https://www.rebellionresearch.com/).  
+In the past, I have worked as a full stack web development intern at [DIDiT Labs](http://diditlabs.com/) and as an investment/webmaster intern at [Rebellion Research](https://www.rebellionresearch.com/).
 
-I'm primarily interested in webdev and enjoy watching Safari become increasingly obsolete.
+Photo credit to [Yasmine Akki](http://www.triplefiltered.com/).
 
-Much thanks to Yuka Miyanomae for the awesome drawing!
-</div>
-</div>
+## Currently working on
+- [AlmaBot](https://almabot.info), a Messenger bot catered to the Columbia community
+- [CUOracle](https://cuoracle.com), a course registration guide centered on student input
+
+## You can reach me at
+- <william.chiu@columbiaspectator.com>
 
