@@ -1,0 +1,148 @@
+{
+  "assetsByChunkName": {
+    "path---posts-2017-02-06-spectated-2017-02-06-spectated": [
+      "path---posts-2017-02-06-spectated-2017-02-06-spectated-cb11078c1a56321bb9d3.js",
+      "path---posts-2017-02-06-spectated-2017-02-06-spectated-cb11078c1a56321bb9d3.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-dd2b92f0ae2c4a223457.js",
+      "component---src-pages-index-js-dd2b92f0ae2c4a223457.js.map"
+    ],
+    "path---posts-2017-02-10-a-work-still-in-progress-2017-02-10-a-work-still-in-progress": [
+      "path---posts-2017-02-10-a-work-still-in-progress-2017-02-10-a-work-still-in-progress-594e71b6028027b41d2c.js",
+      "path---posts-2017-02-10-a-work-still-in-progress-2017-02-10-a-work-still-in-progress-594e71b6028027b41d2c.js.map"
+    ],
+    "path---posts-2017-03-02-music-love-2017-03-02-music-love": [
+      "path---posts-2017-03-02-music-love-2017-03-02-music-love-81651e216328cf1b0cf9.js",
+      "path---posts-2017-03-02-music-love-2017-03-02-music-love-81651e216328cf1b0cf9.js.map"
+    ],
+    "path---": [
+      "path----7da343b879e085027ed0.js",
+      "path----7da343b879e085027ed0.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-9a53701502d80a5b915a.js",
+      "component---src-pages-contact-js-9a53701502d80a5b915a.js.map"
+    ],
+    "path---posts-2017-01-27-im-still-around-2017-01-27-im-still-around": [
+      "path---posts-2017-01-27-im-still-around-2017-01-27-im-still-around-6866820fef415744b69f.js",
+      "path---posts-2017-01-27-im-still-around-2017-01-27-im-still-around-6866820fef415744b69f.js.map"
+    ],
+    "path---posts-2016-04-19-imagesort-2016-04-19-imagesort": [
+      "path---posts-2016-04-19-imagesort-2016-04-19-imagesort-da01ce43fb13a280d000.js",
+      "path---posts-2016-04-19-imagesort-2016-04-19-imagesort-da01ce43fb13a280d000.js.map"
+    ],
+    "path---posts-2016-06-10-stuff-i-couldnt-get-into-columbus-2016-06-10-stuff-i-couldnt-get-into-columbus": [
+      "path---posts-2016-06-10-stuff-i-couldnt-get-into-columbus-2016-06-10-stuff-i-couldnt-get-into-columbus-431d02599e0be52aff53.js",
+      "path---posts-2016-06-10-stuff-i-couldnt-get-into-columbus-2016-06-10-stuff-i-couldnt-get-into-columbus-431d02599e0be52aff53.js.map"
+    ],
+    "path---posts-2017-10-06-long-time-no-see-2017-10-06-long-time-no-see": [
+      "path---posts-2017-10-06-long-time-no-see-2017-10-06-long-time-no-see-f5e277db3b8e8640be9d.js",
+      "path---posts-2017-10-06-long-time-no-see-2017-10-06-long-time-no-see-f5e277db3b8e8640be9d.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---posts-2016-06-16-socketio-chat-2016-06-16-socketio-chat": [
+      "path---posts-2016-06-16-socketio-chat-2016-06-16-socketio-chat-7078a903bf4380a3148e.js",
+      "path---posts-2016-06-16-socketio-chat-2016-06-16-socketio-chat-7078a903bf4380a3148e.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-41d28792758aa499449f.js",
+      "component---src-templates-blog-post-js-41d28792758aa499449f.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-120bc6d40e82e56fe235.js",
+      "component---src-layouts-index-js-120bc6d40e82e56fe235.js.map"
+    ],
+    "path---posts-2017-05-07-columbia-buy-sell-shills-2017-05-07-columbia-buy-sell-shills": [
+      "path---posts-2017-05-07-columbia-buy-sell-shills-2017-05-07-columbia-buy-sell-shills-bdd6925b6caeb1652e11.js",
+      "path---posts-2017-05-07-columbia-buy-sell-shills-2017-05-07-columbia-buy-sell-shills-bdd6925b6caeb1652e11.js.map"
+    ],
+    "path---posts-2017-02-09-people-units-2017-02-09-people-units": [
+      "path---posts-2017-02-09-people-units-2017-02-09-people-units-00ade0b1d47a26421b2e.js",
+      "path---posts-2017-02-09-people-units-2017-02-09-people-units-00ade0b1d47a26421b2e.js.map"
+    ],
+    "path---posts-2016-07-09-leather-bifold-2016-07-09-leather-bifold": [
+      "path---posts-2016-07-09-leather-bifold-2016-07-09-leather-bifold-e3e9f7f7e8773bcdf072.js",
+      "path---posts-2016-07-09-leather-bifold-2016-07-09-leather-bifold-e3e9f7f7e8773bcdf072.js.map"
+    ],
+    "path---posts": [
+      "path---posts-882ef0ae5f5a2de88386.js",
+      "path---posts-882ef0ae5f5a2de88386.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---posts-2017-02-07-health-2017-02-07-health": [
+      "path---posts-2017-02-07-health-2017-02-07-health-d8faf349b2589beedf69.js",
+      "path---posts-2017-02-07-health-2017-02-07-health-d8faf349b2589beedf69.js.map"
+    ],
+    "path---posts-2017-02-01-toggle-mind-boggle-2017-02-01-toggle-mind-boggle": [
+      "path---posts-2017-02-01-toggle-mind-boggle-2017-02-01-toggle-mind-boggle-8883d692885ede9d9c34.js",
+      "path---posts-2017-02-01-toggle-mind-boggle-2017-02-01-toggle-mind-boggle-8883d692885ede9d9c34.js.map"
+    ],
+    "path---posts-2017-01-28-happy-chinese-new-year-2017-01-28-happy-chinese-new-year": [
+      "path---posts-2017-01-28-happy-chinese-new-year-2017-01-28-happy-chinese-new-year-c1509545cf81d9ef7732.js",
+      "path---posts-2017-01-28-happy-chinese-new-year-2017-01-28-happy-chinese-new-year-c1509545cf81d9ef7732.js.map"
+    ],
+    "path---posts-2017-02-22-halfway-into-week-7-2017-02-22-halfway-into-week-7": [
+      "path---posts-2017-02-22-halfway-into-week-7-2017-02-22-halfway-into-week-7-13e14b251b74ce993480.js",
+      "path---posts-2017-02-22-halfway-into-week-7-2017-02-22-halfway-into-week-7-13e14b251b74ce993480.js.map"
+    ],
+    "commons": [
+      "commons-28be53074f8092a194c1.js",
+      "commons-28be53074f8092a194c1.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---posts-2017-01-29-emperor-trump-2017-01-29-emperor-trump": [
+      "path---posts-2017-01-29-emperor-trump-2017-01-29-emperor-trump-a2a9b01465abb6f4ef4d.js",
+      "path---posts-2017-01-29-emperor-trump-2017-01-29-emperor-trump-a2a9b01465abb6f4ef4d.js.map"
+    ],
+    "path---posts-2017-02-22-yes-this-is-homework-2017-02-22-yes-this-is-homework": [
+      "path---posts-2017-02-22-yes-this-is-homework-2017-02-22-yes-this-is-homework-2ff11219b0a6cfe92b6f.js",
+      "path---posts-2017-02-22-yes-this-is-homework-2017-02-22-yes-this-is-homework-2ff11219b0a6cfe92b6f.js.map"
+    ],
+    "path---posts-2017-01-30-start-of-week-3-2017-01-30-start-of-week-3": [
+      "path---posts-2017-01-30-start-of-week-3-2017-01-30-start-of-week-3-2685a07605d33bdb73a0.js",
+      "path---posts-2017-01-30-start-of-week-3-2017-01-30-start-of-week-3-2685a07605d33bdb73a0.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---posts-2017-01-31-rock-n-roll-2017-01-31-rock-n-roll": [
+      "path---posts-2017-01-31-rock-n-roll-2017-01-31-rock-n-roll-c145067cb5e7b72d8d28.js",
+      "path---posts-2017-01-31-rock-n-roll-2017-01-31-rock-n-roll-c145067cb5e7b72d8d28.js.map"
+    ],
+    "path---posts-2016-04-09-falling-2016-04-09-falling": [
+      "path---posts-2016-04-09-falling-2016-04-09-falling-d21b8c9c35d5f7ddb2fa.js",
+      "path---posts-2016-04-09-falling-2016-04-09-falling-d21b8c9c35d5f7ddb2fa.js.map"
+    ],
+    "path---posts-2017-02-11-week-5-impending-2017-02-11-week-5-impending": [
+      "path---posts-2017-02-11-week-5-impending-2017-02-11-week-5-impending-7e533917d79ba6d75718.js",
+      "path---posts-2017-02-11-week-5-impending-2017-02-11-week-5-impending-7e533917d79ba6d75718.js.map"
+    ],
+    "path---posts-2017-02-05-candle-2017-02-05-candle": [
+      "path---posts-2017-02-05-candle-2017-02-05-candle-9ba82077f01e83e3b72a.js",
+      "path---posts-2017-02-05-candle-2017-02-05-candle-9ba82077f01e83e3b72a.js.map"
+    ],
+    "app": [
+      "app-6245093b186bc3de60ab.js",
+      "app-6245093b186bc3de60ab.js.map"
+    ],
+    "path---posts-2017-01-31-cant-get-the-record-straight-2017-01-31-cant-get-the-record-straight": [
+      "path---posts-2017-01-31-cant-get-the-record-straight-2017-01-31-cant-get-the-record-straight-b6f502710267d3068c8d.js",
+      "path---posts-2017-01-31-cant-get-the-record-straight-2017-01-31-cant-get-the-record-straight-b6f502710267d3068c8d.js.map"
+    ],
+    "component---src-pages-posts-js": [
+      "component---src-pages-posts-js-7ef83f6ccde77bfcd8dd.js",
+      "component---src-pages-posts-js-7ef83f6ccde77bfcd8dd.js.map"
+    ]
+  }
+}
