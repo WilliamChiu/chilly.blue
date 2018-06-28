@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{121:function(t,e){t.exports={data:{allJavascriptFrontmatter:{edges:[{node:{fields:{slug:"/contact/"},frontmatter:{title:"Contact"}}},{node:{fields:{slug:"/posts/"},frontmatter:{title:"Posts"}}},{node:{fields:{slug:"/"},frontmatter:{title:"Home"}}}]}},layoutContext:{}}}});
+//# sourceMappingURL=path----7ff3bdd977fee97f066b.js.map
